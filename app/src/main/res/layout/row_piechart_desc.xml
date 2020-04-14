@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/space_half">
+
+    <View
+        android:id="@+id/colorFundType"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@color/red_500" />
+
+    <TextView
+        android:id="@+id/tvFundTypeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space"
+        android:textSize="@dimen/font_reg"
+        tools:text="Fund Package Name" />
+
+</LinearLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/space_double">
+
+        <LinearLayout
+            android:id="@+id/llInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/space_double"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etUsername"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:background="@drawable/rounded_edittext"
+                android:digits="qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890_-.@"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:maxLength="50"
+                android:singleLine="true"
+                android:textColorHint="@color/hintColor"
+                tools:additionalTouchTargetSize="0dp"
+                android:textSize="@dimen/font_medium" />
+
+
+            <com.scottyab.showhidepasswordedittext.ShowHidePasswordEditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/space"
+                android:background="@drawable/rounded_edittext"
+                android:digits="qwertyuiopasdfghjklzxcvbnm1234567890QWERTYUIOPASDFGHJKLZXCVBNM"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                app:tint_color="@color/hintColor"
+                android:maxLength="12"
+                android:singleLine="true"
+                android:textColorHint="@color/hintColor"
+                android:textSize="@dimen/font_medium" />
+
+
+
+            <!--<EditText-->
+            <!--android:id="@+id/etPassword"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="@dimen/space"-->
+            <!--android:background="@drawable/rounded_edittext"-->
+            <!--android:fontFamily="sans-serif"-->
+            <!--android:digits="qwertyuiopasdfghjklzxcvbnm1234567890QWERTYUIOPASDFGHJKLZXCVBNM"-->
+            <!--android:hint="@string/password"-->
+            <!--android:maxLength="12"-->
+            <!--android:inputType="textPassword"-->
+            <!--android:textColorHint="@color/hintColor"-->
+            <!--android:textSize="@dimen/font_medium" />-->
+
+            <CheckBox
+                android:id="@+id/cbRememberMe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space"
+                android:layout_marginEnd="@dimen/space_triple"
+                android:layout_marginRight="@dimen/space_triple"
+                android:layout_marginTop="@dimen/space"
+                android:backgroundTint="@color/white"
+                android:text="@string/remember.me"
+                android:textColor="@color/white"
+                android:theme="@style/checkBoxStyle" />
+            =
+
+            <Button
+                android:id="@+id/bSignIn"
+                style="@style/GenericRaisedButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/space_xtra"
+                android:layout_marginRight="@dimen/space_xtra"
+                android:layout_marginTop="@dimen/space_double"
+                android:text="@string/sign_in"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_medium" />
+
+
+            <Button
+                android:id="@+id/bForgotPassword"
+                style="@style/ForgotPasswordFlatButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/space"
+                android:minHeight="36dp"
+                android:text="@string/signin.forgot_password"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_reg"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/llInput"
+            android:layout_marginBottom="@dimen/space_double"
+            android:layout_marginTop="@dimen/space_double"
+            android:orientation="horizontal"
+            android:padding="@dimen/space_double">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/space_half"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/signin.clue.no_account"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_reg" />
+
+            <Button
+                android:id="@+id/bSignUp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_weight="1"
+                android:background="@drawable/button_white_outline"
+                android:text="@string/sign_up"
+                android:textColor="@drawable/button_white_outline_text"
+                android:textSize="@dimen/font_medium" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

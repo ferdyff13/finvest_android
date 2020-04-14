@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/llSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/red_600"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/bSignUp"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_reg"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/llSignUp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/space_double"
+            android:paddingLeft="@dimen/space"
+            android:paddingRight="@dimen/space"
+            android:paddingTop="@dimen/space_double">
+
+            <!--FIRST NAME-->
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etFirstName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:digits="QWERTYUIOPASDFGHJKLZXCVBNM qwertyuiopasdfghjklzxcvbnm"
+                    android:hint="@string/signup.first_name"
+                    android:inputType="textPersonName"
+                    android:maxLength="20"
+                    android:singleLine="true"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/font_medium" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:background="@color/mandatoryFieldColor" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <!--MIDDLE NAME-->
+
+            <!-- <android.support.design.widget.TextInputLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="@dimen/space_double">
+
+                 <EditText
+                     android:id="@+id/etMiddleName"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:hint="@string/signup.middle_name"
+                     android:inputType="textPersonName"
+                     android:singleLine="true"
+                     android:textColor="@color/textColor"
+                     android:textSize="@dimen/font_medium" />
+
+             </android.support.design.widget.TextInputLayout>-->
+
+            <!--LAST NAME-->
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_double">
+
+                <EditText
+                    android:id="@+id/etLastName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:digits="QWERTYUIOPASDFGHJKLZXCVBNM qwertyuiopasdfghjklzxcvbnm"
+                    android:hint="@string/signup.last_name"
+                    android:inputType="textPersonName"
+                    android:maxLength="20"
+                    android:singleLine="true"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/font_medium" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:background="@color/mandatoryFieldColor" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <!--HOME PHONE NUMBER-->
+            <!--
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/space_half"
+                            android:layout_marginTop="@dimen/space_double"
+                            android:text="@string/signup.phone_number"
+                            android:textColor="@color/hintColor"
+                            android:textSize="@dimen/font_small" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/space"
+                            android:orientation="horizontal">
+
+                            <EditText
+                                android:id="@+id/etCountryCode"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="@dimen/space_half"
+                                android:layout_weight="1"
+                                android:hint="@string/signup.country_code"
+                                android:inputType="phone"
+                                android:maxLength="4"
+                                android:singleLine="true"
+                                android:textColor="@color/textColor"
+                                android:textSize="@dimen/font_medium" />
+
+                            <EditText
+                                android:id="@+id/etCityCode"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/space_half"
+                                android:layout_weight="1"
+                                android:hint="@string/signup.city_code"
+                                android:inputType="phone"
+                                android:maxLength="5"
+                                android:singleLine="true"
+                                android:textColor="@color/textColor"
+                                android:textSize="@dimen/font_medium" />
+
+                            <EditText
+                                android:id="@+id/etHomePhoneNumber"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:hint="@string/signup.phone.hint"
+                                android:inputType="phone"
+                                android:maxLength="9"
+                                android:singleLine="true"
+                                android:textColor="@color/textColor"
+                                android:textSize="@dimen/font_medium" />
+
+                        </LinearLayout>
+
+            -->
+
+            <!--MOBILE PHONE NUMBER-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_double"
+                android:text="@string/signup.mobile_phone_number"
+                android:textColor="@color/underlineFieldColor"
+                android:textSize="@dimen/font_small" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space"
+                android:orientation="horizontal">
+
+                a
+
+                <EditText
+                    android:id="@+id/etCountryCodeMobilePhone"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:layout_weight="1"
+                    android:hint="@string/signup.country_code"
+                    android:inputType="phone"
+                    android:maxLength="4"
+                    android:singleLine="true"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/font_medium" />
+
+                <EditText
+                    android:id="@+id/etMobilePhoneNumber"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_weight="4"
+                    android:hint="@string/signup.mobile_phone.hint"
+                    android:inputType="phone"
+                    android:maxLength="12"
+                    android:singleLine="true"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/font_medium" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/mandatoryFieldColor" />
+
+
+            <!--EMAIL-->
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_double">
+
+                <EditText
+                    android:id="@+id/etEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:digits="qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890@_-.@"
+                    android:hint="@string/signup.email"
+                    android:inputType="textEmailAddress"
+                    android:maxLength="50"
+                    android:singleLine="true"
+                    android:textAllCaps="false"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/font_medium" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:background="@color/mandatoryFieldColor" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <!--PASSWORD-->
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_double">
+
+                <com.scottyab.showhidepasswordedittext.ShowHidePasswordEditText
+                    android:id="@+id/etPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:digits="qwertyuiopasdfghjklzxcvbnm1234567890QWERTYUIOPASDFGHJKLZXCVBNM"
+                    android:fontFamily="sans-serif"
+                    android:hint="@string/signup.password"
+                    android:inputType="textPassword"
+                    android:maxLength="12"
+                    android:singleLine="true"
+                    app:tint_color="@color/hintColor"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/font_medium" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:background="@color/mandatoryFieldColor" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/space_half"
+                    android:hint="@string/signup.password_hint"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/font_small"
+                    android:textStyle="italic" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <!--CONFIRM PASSWORD-->
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_double">
+
+                <com.scottyab.showhidepasswordedittext.ShowHidePasswordEditText
+                    android:id="@+id/etConfirmPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:digits="qwertyuiopasdfghjklzxcvbnm1234567890QWERTYUIOPASDFGHJKLZXCVBNM"
+                    android:fontFamily="sans-serif"
+                    android:hint="@string/signup.confirm_password"
+                    android:inputType="textPassword"
+                    android:maxLength="12"
+                    android:singleLine="true"
+                    app:tint_color="@color/hintColor"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/font_medium" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:background="@color/mandatoryFieldColor" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <!--SECURITY QUESTION-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_double"
+                android:text="@string/signup.security_question"
+                android:textColor="@color/underlineFieldColor"
+                android:textSize="@dimen/font_small" />
+
+            <Spinner
+                android:id="@+id/sQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:entries="@array/dummy_array"
+                android:focusable="false"
+                android:spinnerMode="dialog" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/grey_700" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:background="@color/mandatoryFieldColor" />
+
+            <!--ANSWER-->
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_double">
+
+                <EditText
+                    android:id="@+id/etAnswer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/signup.security_answer.hint"
+                    android:maxLength="100"
+                    android:singleLine="true"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/font_medium" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginLeft="@dimen/space_quarter"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:background="@color/mandatoryFieldColor" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <!--AGREE-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/cbAgree"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/space_double"
+                        android:gravity="center"
+                        android:layout_marginBottom="@dimen/space"
+                        android:textSize="@dimen/font_small" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/space"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/space"
+                            android:text="@string/signup.agree"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_small" />
+
+
+                        <LinearLayout
+                            android:layout_marginTop="@dimen/space_half"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tvAgree"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/space"
+                                android:text="@string/signup.rule"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/font_small" />
+
+
+                            <TextView
+                                android:id="@+id/tvTermsInvisee"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/space"
+                                android:text="Finvest"
+                                android:textColor="@color/red_600"
+                                android:textSize="@dimen/font_small" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/space"
+                                android:text="dan"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/font_small" />
+
+
+                            <TextView
+                                android:id="@+id/tvTermsViseePay"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/space"
+                                android:text="FinPay"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/font_small" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <View
+        android:id="@+id/shadowBottom"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_above="@+id/llSignUp"
+        android:background="@drawable/bottom_dropshadow" />
+
+</RelativeLayout>

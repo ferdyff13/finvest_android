@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: it.dex.dexmovingimageview:dexmovingimageviewlib:0.1.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/it.dex.dexmovingimageview/dexmovingimageviewlib/0.1.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/it.dex.dexmovingimageview/dexmovingimageviewlib/0.1.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.dex.dexmovingimageview/dexmovingimageviewlib/0.1.0/20b044fa1d765cacb7bbe433008c610b1a15d070/dexmovingimageviewlib-0.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

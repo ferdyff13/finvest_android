@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/lnrFinPay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Detail Top Up FinPay"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scvOther"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/lnrData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:padding="@dimen/space"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:id="@+id/txvExpirationTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/space"
+                        android:text="@string/summary.expired_time_5" />
+
+                </LinearLayout>
+                <View
+                    android:layout_marginLeft="@dimen/space"
+                    android:layout_marginRight="@dimen/space"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/space"
+                    android:background="@color/grey_400" />
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/space_double"
+                    android:layout_marginRight="@dimen/space_double"
+                    android:layout_marginTop="@dimen/space"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/font_small"
+                            android:text="Total Tagihan"
+                            android:id="@+id/textView13" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/font_small"
+                            android:text="Kode Unik"
+                            android:id="@+id/textView15" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/font_small"
+                            android:text="Jumlah" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginLeft="@dimen/space_half"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=":"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=":"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=":"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginLeft="@dimen/space"
+                        android:layout_marginRight="@dimen/space"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tvAmount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/space"
+                            android:layout_marginStart="@dimen/space"
+                            android:textSize="@dimen/font_small"
+                            tools:text="Rp 100.000" />
+
+
+                        <TextView
+                            android:id="@+id/tvUniqCode"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/space"
+                            android:layout_marginStart="@dimen/space"
+                            android:textSize="@dimen/font_small"
+                            tools:text="500" />
+
+                        <TextView
+                            android:id="@+id/tvTotal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/space"
+                            android:layout_marginStart="@dimen/space"
+                            android:textSize="@dimen/font_small"
+                            tools:text="Rp 10.500" />
+
+                    </LinearLayout>
+
+                    <!--new-->
+                    <LinearLayout
+                        android:id="@+id/btn_copy"
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_21sdp"
+                        android:background="@drawable/button_accent"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:layout_gravity="bottom"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="@dimen/_10sdp"
+                            android:layout_height="@dimen/_10sdp"
+                            android:src="@drawable/ic_copy"
+                            android:tint="@color/white" />
+
+                        <TextView
+                            android:id="@+id/textView10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/space"
+                            android:layout_marginRight="@dimen/space"
+                            android:text="Salin"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/font_small" />
+
+                    </LinearLayout>
+                    <!--end-->
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/space_double"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <!-- <TextView
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="2"
+                         android:text="@string/summary.account_number" />
+
+                     <TextView
+                         android:id="@+id/txvAccountNumber"
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="@dimen/space"
+                         android:layout_marginStart="@dimen/space"
+                         android:layout_weight="3"
+                         android:textColor="@color/colorPrimary"
+                         tools:text=": 8789931603180002" />
+
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center_horizontal"
+                     android:gravity="center_vertical"
+                     android:orientation="horizontal">
+
+                     <TextView
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="2"
+                         android:text="@string/summary.account_name" />
+
+                     <TextView
+                         android:id="@+id/txvAccountName"
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="@dimen/space"
+                         android:layout_marginStart="@dimen/space"
+                         android:layout_weight="3"
+                         android:textColor="@color/colorPrimary"
+                         tools:text=": Glen Rynaldi Hermanus" />
+
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center_horizontal"
+                     android:gravity="center_vertical"
+                     android:orientation="horizontal">
+
+                     <TextView
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="2"
+                         android:text="@string/summary.bank_name" />
+
+                     <TextView
+                         android:id="@+id/txvBankName"
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="@dimen/space"
+                         android:layout_marginStart="@dimen/space"
+                         android:layout_weight="3"
+                         android:textColor="@color/colorPrimary"
+                         tools:text=": Bank Permata" />
+
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center_horizontal"
+                     android:gravity="center_vertical"
+                     android:orientation="horizontal">
+
+                     <TextView
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="2"
+                         android:text="@string/summary.branch" />
+
+                     <TextView
+                         android:id="@+id/txvBranch"
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="@dimen/space"
+                         android:layout_marginStart="@dimen/space"
+                         android:layout_weight="3"
+                         android:textColor="@color/colorPrimary"
+                         tools:text=": Bank Permata Jakarta Pusat" />-->
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvBank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_double"
+                    android:textSize="@dimen/font_medium"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text=""/>
+
+                <TextView
+                    android:layout_marginTop="@dimen/space"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cabang Juanda 3, Jakarta Pusat a/n"
+                    android:id="@+id/tvAddRek" />
+
+                <TextView
+                    android:id="@+id/tvRekName"
+                    android:layout_marginLeft="@dimen/space"
+                    android:layout_marginRight="@dimen/space"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PT. Nusantara Sejahtera Investama" />
+
+                <TextView
+                    android:id="@+id/tvRekNo"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0611104625" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="@dimen/space"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Harap transfer sesuai dengan jumlah yang harus dibayar, termasuk tiga digit terakhir. Jika jumlah dana yang anda transfer tidak sesuai, maka proses verifikasi pembayaran anda dapat terhambat"
+                    android:id="@+id/textView14" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

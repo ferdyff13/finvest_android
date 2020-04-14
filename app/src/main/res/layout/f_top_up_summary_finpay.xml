@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/lnrData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:padding="@dimen/space"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:id="@+id/txvExpirationTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/space"
+                        android:text="Reservasi Kode Tambah Saldo Anda Berhasil" />
+
+                </LinearLayout>
+                <View
+                    android:layout_marginLeft="@dimen/space"
+                    android:layout_marginRight="@dimen/space"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/space"
+                    android:background="@color/grey_400" />
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/space_double"
+                    android:layout_marginRight="@dimen/space_double"
+                    android:layout_marginTop="@dimen/space_double"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/font_small"
+                        android:text="Kode Tambah Saldo Anda :"
+                        android:id="@+id/textView1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/font_big"
+                        android:text="0123456789"
+                        android:id="@+id/txtNumber"
+                        android:textColor="@color/red_600"
+                        android:layout_marginTop="@dimen/space"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/font_tiny"
+                        android:text="(Tekan Kode Reserve untuk menyalin kode)"
+                        android:textStyle="italic"
+                        android:layout_marginTop="@dimen/space"
+                        android:id="@+id/textView2" />
+
+                    <!--new-->
+                    <!--<LinearLayout-->
+                        <!--android:id="@+id/btn_copy"-->
+                        <!--android:layout_width="@dimen/_60sdp"-->
+                        <!--android:layout_height="@dimen/_21sdp"-->
+                        <!--android:background="@drawable/button_accent"-->
+                        <!--android:gravity="center_vertical|center_horizontal"-->
+                        <!--android:layout_gravity="bottom|center"-->
+                        <!--android:layout_marginTop="@dimen/space"-->
+                        <!--android:orientation="horizontal">-->
+
+                        <!--<ImageView-->
+                            <!--android:layout_width="@dimen/_10sdp"-->
+                            <!--android:layout_height="@dimen/_10sdp"-->
+                            <!--android:src="@drawable/ic_copy"-->
+                            <!--android:tint="@color/white" />-->
+
+                        <!--<TextView-->
+                            <!--android:id="@+id/textView10"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginLeft="@dimen/space"-->
+                            <!--android:layout_marginRight="@dimen/space"-->
+                            <!--android:text="Salin"-->
+                            <!--android:textColor="@color/white"-->
+                            <!--android:textSize="@dimen/font_small" />-->
+
+                    <!--</LinearLayout>-->
+                    <!--end-->
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/space"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/space_double"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@drawable/button_primary"
+                        android:backgroundTint="@color/grayColor"
+                        android:gravity="center"
+                        android:padding="@dimen/space_double">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/font_small"
+                            android:text="Perhatian :"
+                            android:id="@+id/textView3" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/font_small"
+                            android:text="Kode tambah saldo anda sebelumnya sudah tidak berlaku. Silahkan gunakan kode ini untuk tambah saldo anda."
+                            android:id="@+id/textView4"
+                            android:gravity="center"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/space_double">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:textSize="@dimen/font_small"
+                            android:text="@string/text_summary_finpay_1"
+                            android:id="@+id/textView5"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textSize="@dimen/font_small"
+                        android:text="Untuk Bank BCA dan Gerai, tambahkan angka 0 di depan Kode Tambah Saldo Anda (Contoh : 021xxxx menjadi 0021xxxx)"
+                        android:id="@+id/textView6"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/space"/>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textSize="@dimen/font_small"
+                        android:text="Apabila saldo belum bertambah dalam waktu 15 menit, silahkan menghubungi call center 1500770"
+                        android:id="@+id/textView7"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/space"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

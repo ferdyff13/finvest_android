@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:animateLayoutChanges="true">
+
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/lnProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ProgressBar
+                android:layout_gravity="center"
+                android:id="@+id/pbLoading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/lnConnectionError"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:tint="@color/grey_400"
+                    android:src="@drawable/ic_error"/>
+
+                <TextView
+                    android:textSize="@dimen/font_medium"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/connection_error" />
+
+                <TextView
+                    android:id="@+id/tvTryAgain"
+                    android:layout_marginTop="@dimen/space"
+                    android:gravity="center"
+                    android:textColor="@color/red_600"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/try_again" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/lnDismissBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:id="@+id/llReminder"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:padding="@dimen/space"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_50sdp"
+                                android:background="@color/white"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_weight="1">
+
+                                    <RadioButton
+                                        android:id="@+id/rbWallet"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:saveEnabled="false"
+                                        android:text="FinPay"
+                                        android:textAppearance="?android:textAppearanceMedium"
+                                        android:textColor="@color/grey_700" />
+
+                                </LinearLayout>
+
+                                <ImageView
+                                    android:id="@+id/ic_arrow"
+                                    android:layout_width="@dimen/_80sdp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical|end"
+                                    android:adjustViewBounds="true"
+                                    android:padding="5dp"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/ic_logo_finpay" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:background="@color/grey_400"
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp">
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lineHide"
+                                android:layout_width="match_parent"
+                                android:padding="@dimen/space_double"
+                                android:layout_height="wrap_content"
+                                android:background="@color/red_600"
+                                android:orientation="vertical"
+                                android:visibility="gone">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:textColor="@color/white"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="\u2022 "/>
+
+                                    <TextView
+                                        android:textColor="@color/white"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:text="@string/payment.wallet.detail.1" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:textColor="@color/white"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="\u2022 "/>
+
+                                    <TextView
+                                        android:textColor="@color/white"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:text="@string/payment.wallet.detail.2"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:textColor="@color/white"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="\u2022 "/>
+
+                                    <TextView
+                                        android:textColor="@color/white"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:text="@string/payment.wallet.detail.3"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:textColor="@color/white"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="\u2022 "/>
+
+                                    <TextView
+                                        android:id="@+id/tvVpAddSaldo"
+                                        android:textColor="@color/white"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:text="@string/payment.wallet.detail.4" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:padding="@dimen/space"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_50sdp"
+                                android:background="@color/white"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_weight="1">
+
+                                    <RadioButton
+                                        android:id="@+id/rbTransfer"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:checked="false"
+                                        android:text="@string/payment.transfer"
+                                        android:saveEnabled="false"
+                                        android:textAppearance="?android:textAppearanceMedium"
+                                        android:textColor="@color/grey_700" />
+
+                                </LinearLayout>
+
+                                <ImageView
+                                    android:layout_width="@dimen/_80sdp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical|end"
+                                    android:adjustViewBounds="true"
+                                    android:padding="5dp"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/atm_logo" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:background="@color/grey_400"
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp">
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:padding="@dimen/space_double"
+                                android:id="@+id/lineHideTrans"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@color/red_600"
+                                android:orientation="vertical"
+                                android:visibility="gone">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:textColor="@color/white"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="\u2022 "/>
+
+                                    <TextView
+                                        android:textColor="@color/white"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:text="@string/payment.transfer.detail.1"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:textColor="@color/white"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="\u2022 "/>
+
+                                    <TextView
+                                        android:textColor="@color/white"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:text="@string/payment.transfer.detail.2"/>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <!--<LinearLayout-->
+                            <!--android:padding="@dimen/space"-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="@dimen/_50sdp"-->
+                            <!--android:background="@color/white"-->
+                            <!--android:orientation="horizontal">-->
+
+                            <!--<LinearLayout-->
+                            <!--android:layout_width="0dp"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_gravity="center"-->
+                            <!--android:layout_weight="1">-->
+
+                            <!--<RadioButton-->
+                            <!--android:id="@+id/rbPayPro"-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="match_parent"-->
+                            <!--android:text="@string/payment.paypro"-->
+                            <!--android:saveEnabled="false"-->
+                            <!--android:textAppearance="?android:textAppearanceMedium"-->
+                            <!--android:textColor="@color/grey_700" />-->
+
+                            <!--</LinearLayout>-->
+
+                            <!--<ImageView-->
+                            <!--android:layout_width="@dimen/_80sdp"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_gravity="center_vertical|end"-->
+                            <!--android:adjustViewBounds="true"-->
+                            <!--android:padding="5dp"-->
+                            <!--android:scaleType="fitXY"-->
+                            <!--android:src="@drawable/logo_paypro" />-->
+
+                            <!--</LinearLayout>-->
+
+                            <!--<LinearLayout-->
+                            <!--android:background="@color/grey_400"-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="1dp">-->
+                            <!--</LinearLayout>-->
+
+                            <LinearLayout
+                                android:id="@+id/lineHidePaypro"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@color/red_600"
+                                android:padding="@dimen/space_double"
+                                android:orientation="vertical"
+                                android:visibility="gone">
+
+                                <EditText
+                                    android:id="@+id/etPaypro"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/rounded_edittext"
+                                    android:fontFamily="sans-serif"
+                                    android:gravity="center"
+                                    android:maxLength="12"
+                                    android:hint="@string/payment.paypro.number"
+                                    android:inputType="number"
+                                    android:textColorHint="@color/hintColor"
+                                    android:textSize="@dimen/font_medium" />
+
+
+                                <LinearLayout
+                                    android:layout_marginTop="@dimen/space_double"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:textColor="@color/white"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="\u2022 "/>
+
+                                    <TextView
+                                        android:textColor="@color/white"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:text="@string/payment.paypro.detail.1"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:textColor="@color/white"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="\u2022 "/>
+
+                                    <TextView
+                                        android:textColor="@color/white"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:text="@string/payment.paypro.detail.2"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:textColor="@color/white"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="\u2022 "/>
+
+                                    <TextView
+                                        android:textColor="@color/white"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:text="@string/payment.paypro.detail.3"/>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llGone"
+                            android:layout_marginTop="@dimen/space_double"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:paddingLeft="@dimen/space_double"
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/txvWarningIcon"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/red_700"
+                                    android:text="*"/>
+
+                            </LinearLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/txvNoVpAccount"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/red_700"
+                                    android:text="Kamu belum memiliki akun Finpay, silahkan lengkapi data kamu untuk mendapatkan akun Finpay"/>
+
+                                <TextView
+                                    android:id="@+id/txvNoVpBalance"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/red_700"
+                                    android:text="Saldo Finpay anda tidak mencukupi"/>
+
+                            </RelativeLayout>
+
+
+                        </LinearLayout>
+
+
+
+                        <TextView
+                            android:id="@+id/securityPin"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/space"
+                            android:gravity="center"
+                            android:text="@string/redemption.security_pin"
+                            android:textColor="@color/red_600"
+                            android:textSize="@dimen/font_medium"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/labelTerm"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/space"
+                            android:layout_marginBottom="10dp"
+                            android:gravity="center"
+                            android:text="@string/redemption.please_input"
+                            android:textSize="@dimen/font_medium" />
+
+                        <EditText
+                            android:id="@+id/etSecurityPin"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/space_xtra"
+                            android:layout_marginRight="@dimen/space_xtra"
+                            android:background="@drawable/rounded_edittext"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center"
+                            android:hint="@string/redemption.pin"
+                            android:inputType="numberPassword"
+                            android:maxLength="2"
+                            android:textColorHint="@color/hintColor"
+                            android:textSize="@dimen/font_big" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/space_double"
+                            android:layout_marginLeft="@dimen/space_double"
+                            android:layout_marginRight="@dimen/space_double"
+                            android:layout_marginStart="@dimen/space_double"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Klik" />
+
+                            <TextView
+                                android:id="@+id/bSendPin"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:padding="@dimen/space"
+                                android:text="disini"
+                                android:textColor="@color/red_600"
+                                android:textStyle="italic" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="untuk ganti security pin" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/bProceed"
+                            style="@style/GenericRaisedButtonStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="@dimen/space"
+                            android:layout_marginEnd="@dimen/space_double"
+                            android:layout_marginLeft="@dimen/space_double"
+                            android:layout_marginRight="@dimen/space_double"
+                            android:layout_marginStart="@dimen/space_double"
+                            android:layout_marginTop="@dimen/space_triple"
+                            android:orientation="vertical"
+                            android:padding="@dimen/space">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/total"
+                                    android:textColor="@color/white" />
+
+                                <TextView
+                                    android:id="@+id/txvTotal"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="@dimen/space"
+                                    android:layout_marginLeft="@dimen/space"
+                                    android:layout_marginRight="@dimen/space"
+                                    android:layout_marginStart="@dimen/space"
+                                    android:textAppearance="?android:textAppearanceMedium"
+                                    android:textColor="@color/yellow_600"
+                                    tools:text="Rp 10.000.000" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/space_half"
+                                android:gravity="center_vertical"
+                                android:text="@string/checkout.proceed"
+                                android:textAllCaps="true"
+                                android:textAppearance="?android:textAppearanceMedium"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/font_medium"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+            <LinearLayout
+                android:id="@+id/llNoReminder"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/space"
+                android:paddingRight="@dimen/space"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/paypro.loading.info"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/font_reg" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space"
+                    android:gravity="center"
+                    android:text="@string/paypro.loading.info_2"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/font_reg" />
+
+
+                <ProgressBar
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_20sdp"
+                    android:indeterminate="true"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

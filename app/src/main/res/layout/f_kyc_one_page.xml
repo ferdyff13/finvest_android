@@ -1,0 +1,1485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@+id/layout_completeness"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="#eff1f7">
+
+                <!--
+                    ProgressBar
+                        Visual indicator of progress in some operation. Displays a bar to the user
+                        representing how far the operation has progressed; the application can change
+                        the amount of progress (modifying the length of the bar) as it moves forward.
+                -->
+                <ProgressBar
+                    android:id="@+id/pb_completeness"
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_height="wrap_content"
+                    android:indeterminate="false"
+                    style="@android:style/Widget.Holo.Light.ProgressBar.Horizontal"
+                    />
+                <TextView
+                    android:id="@+id/tv_completeness"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:text="0"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/space_double"
+            android:paddingLeft="@dimen/space"
+            android:paddingRight="@dimen/space"
+            android:paddingTop="@dimen/space_double">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Informasi Pribadi"
+                android:textStyle="bold"
+                android:textSize="@dimen/font_big"
+                android:layout_marginBottom="@dimen/space"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@color/grey_400"
+                android:layout_marginBottom="@dimen/space"></LinearLayout>
+
+            <!--SALUTATION status: hidden-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:text="@string/kyc.salutation"
+                android:textColor="@color/hintColor"
+                android:textSize="@dimen/font_small"
+                android:visibility="gone"/>
+
+            <Spinner
+                android:id="@+id/sSalutation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:entries="@array/salutation"
+                android:focusable="false"
+                android:spinnerMode="dialog"
+                android:visibility="gone"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/underlineFieldColor"
+                android:visibility="gone"/>
+
+            <!--LAYOUT NAME HORIZONTAL-->
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!--FIRST NAME-->
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginRight="2dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/space_half"
+                        android:text="@string/kyc.first_name"
+                        android:textColor="@color/red_600"
+                        android:textSize="@dimen/font_small" />
+                    <EditText
+                        android:id="@+id/etFirstName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text|textPersonName"
+                        android:maxLines="1"
+                        android:maxLength="20"
+                        android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/font_medium" />
+
+                    <!--View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.1dp"
+                        android:layout_marginLeft="@dimen/space_half"
+                        android:layout_marginRight="@dimen/space_half"
+                        android:background="@color/mandatoryFieldColor" /-->
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="2dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/space_half"
+                        android:text="@string/kyc.last_name"
+                        android:textColor="@color/red_600"
+                        android:textSize="@dimen/font_small" />
+
+                    <EditText
+                        android:id="@+id/etLastName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text|textPersonName"
+                        android:maxLines="1"
+                        android:maxLength="20"
+                        android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/font_medium" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--BIRTH PLACE-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_double"
+                android:text="@string/kyc.birthplace"
+                android:textColor="@color/red_600"
+                android:textSize="@dimen/font_small" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etBirthplace"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                    android:inputType="textCapWords"
+                    android:maxLines="1"
+                    android:maxLength="20"
+                    android:textColor="@color/textColor"/>
+
+                <!--View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:background="@color/mandatoryFieldColor" /-->
+
+            </android.support.design.widget.TextInputLayout>
+
+            <!--BIRTH DATE-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_double"
+                android:text="@string/kyc.birthdate"
+                android:textColor="@color/red_600"
+                android:textSize="@dimen/font_small" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etDay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:hint="@string/kyc.date"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:maxLines="1"
+                    android:textColor="@color/textColor"
+                    android:textColorHint="@color/hintColor"
+                    android:textSize="@dimen/font_medium" />
+
+                <EditText
+                    android:id="@+id/etMonth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:hint="@string/kyc.month"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:maxLines="1"
+                    android:textColor="@color/textColor"
+                    android:textColorHint="@color/hintColor"
+                    android:textSize="@dimen/font_medium" />
+
+                <EditText
+                    android:id="@+id/etYear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:hint="@string/kyc.year"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:maxLines="1"
+                    android:textColor="@color/textColor"
+                    android:textColorHint="@color/hintColor"
+                    android:textSize="@dimen/font_medium" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_double"
+                android:text="@string/kyc.gender"
+                android:textColor="@color/red_600"
+                android:textSize="@dimen/font_small" />
+
+            <Spinner
+                android:id="@+id/sGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:entries="@array/dummy_array"
+                android:focusable="false"
+                android:spinnerMode="dialog" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/grey_700" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_double"
+                android:text="@string/kyc.marital_status"
+                android:textColor="@color/red_600"
+                android:textSize="@dimen/font_small" />
+
+            <Spinner
+                android:id="@+id/sMaritalStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:focusable="false"
+                android:spinnerMode="dialog" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/grey_700" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_double"
+                android:entries="@array/dummy_array"
+                android:text="@string/kyc.nationality"
+                android:textColor="@color/hintColor"
+                android:textSize="@dimen/font_small"
+                android:visibility="gone"/>
+
+            <Spinner
+                android:id="@+id/sNationality"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:entries="@array/dummy_array"
+                android:focusable="false"
+                android:spinnerMode="dialog"
+                android:visibility="gone" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/grey_700"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_double"
+                android:text="@string/kyc.mother_maiden_name"
+                android:textColor="@color/red_600"
+                android:textSize="@dimen/font_small" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etMotherMaidenName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:inputType="textPersonName"
+                    android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                    android:maxLines="1"
+                    android:maxLength="20"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/font_medium" />
+
+
+            </android.support.design.widget.TextInputLayout>
+
+            <!--Education Background-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_double"
+                android:text="@string/kyc.education_background"
+                android:textColor="@color/red_600"
+                android:textSize="@dimen/font_small" />
+
+            <Spinner
+                android:id="@+id/sEducationBackground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:entries="@array/dummy_array"
+                android:focusable="false"
+                android:spinnerMode="dialog" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/grey_700" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_double"
+                android:text="@string/kyc.religion"
+                android:textColor="@color/red_600"
+                android:textSize="@dimen/font_small" />
+
+            <Spinner
+                android:id="@+id/sReligion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:entries="@array/dummy_array"
+                android:focusable="false"
+                android:spinnerMode="dialog" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/grey_700" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_double"
+                android:text="@string/kyc.preferred_mailing_address"
+                android:textColor="@color/hintColor"
+                android:textSize="@dimen/font_small"
+                android:visibility="gone"
+                />
+
+            <Spinner
+                android:id="@+id/sPreferedMailingAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:entries="@array/dummy_array"
+                android:focusable="false"
+                android:spinnerMode="dialog"
+                android:visibility="gone"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/grey_700"
+                android:visibility="gone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_double"
+                android:text="@string/kyc.occupation"
+                android:textColor="@color/red_600"
+                android:textSize="@dimen/font_small" />
+
+            <Spinner
+                android:id="@+id/sOccupation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:entries="@array/dummy_array"
+                android:focusable="false"
+                android:spinnerMode="dialog" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/grey_700" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_double"
+                android:text="@string/kyc.nature_of_business"
+                android:textColor="@color/red_600"
+                android:textSize="@dimen/font_small" />
+
+            <Spinner
+                android:id="@+id/sNatureOfBusiness"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:entries="@array/dummy_array"
+                android:focusable="false"
+                android:spinnerMode="dialog" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/grey_700" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_double"
+                android:text="@string/kyc.id_number"
+                android:textColor="@color/red_600"
+                android:textSize="@dimen/font_small" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etIdNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:inputType="number"
+                    android:maxLength="20"
+                    android:maxLines="1"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/font_medium" />
+
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <!--ID Date-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:text="@string/kyc.id_exp_date"
+                android:textColor="@color/red_600"
+                android:textSize="@dimen/font_small" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etIdDay"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:hint="@string/kyc.date"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:maxLength="2"
+                    android:textColor="@color/textColor"
+                    android:textColorHint="@color/hintColor"
+                    android:textSize="@dimen/font_medium" />
+
+                <EditText
+                    android:id="@+id/etIdMonth"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:hint="@string/kyc.month"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:maxLength="2"
+                    android:textColor="@color/textColor"
+                    android:textColorHint="@color/hintColor"
+                    android:textSize="@dimen/font_medium" />
+
+                <EditText
+                    android:id="@+id/etIdYear"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:hint="@string/kyc.year"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:maxLength="4"
+                    android:textColor="@color/textColor"
+                    android:textColorHint="@color/hintColor"
+                    android:textSize="@dimen/font_medium" />
+
+                <CheckBox
+                    android:id="@+id/checkboxId"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_half"
+                    />
+
+                <TextView
+                    android:id="@+id/txtIdForever"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="2dp"
+                    android:text="@string/user_profile.kyc.exp_id.lifetime"/>
+
+            </LinearLayout>
+
+
+            <!-- Scan KTP -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Scan/Foto KTP"
+                    android:textColor="@color/red_600"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imvIdPhoto"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/grey_300"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_marginTop="8dp"
+                        android:id="@+id/btIdPhoto"
+                        android:textAllCaps="false"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Upload"/>
+
+                    <TextView
+                        android:id="@+id/doc1"
+                        android:layout_marginLeft="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Scan/Foto Tanda Tangan"
+                    android:textColor="@color/red_600"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imvSignaturePhoto"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/grey_300"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <Button
+                        android:layout_marginTop="8dp"
+                        android:id="@+id/btSignaturePhoto"
+                        android:textAllCaps="false"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Upload"/>
+                    <TextView
+                        android:id="@+id/doc3"
+                        android:layout_marginLeft="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!--Kyc Address-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/space_double"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/space_double"
+                android:paddingLeft="@dimen/space"
+                android:paddingRight="@dimen/space">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Alamat Sesuai KTP"
+                    android:textSize="@dimen/font_big" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/grey_400"
+                    android:layout_marginBottom="@dimen/space"></LinearLayout>
+
+                <!--HOME ADDRESS-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginTop="@dimen/space_double"
+                    android:text="@string/kyc.home_address"
+                    android:textColor="@color/red_600"
+                    android:textSize="@dimen/font_small" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/etHomeAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="top|left"
+                        android:inputType="textMultiLine"
+                        android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890,.\n"
+                        android:lines="3"
+                        android:maxLines="10"
+                        android:maxLength="100"
+                        android:scrollbars="vertical"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/font_medium" />
+
+                    <!--View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.1dp"
+                        android:layout_marginLeft="@dimen/space_half"
+                        android:layout_marginRight="@dimen/space_half"
+                        android:background="@color/mandatoryFieldColor" /-->
+
+                </android.support.design.widget.TextInputLayout>
+
+
+                <!--HOME COUNTRY-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginTop="@dimen/space_double"
+                    android:text="@string/kyc.home_country"
+                    android:textColor="@color/red_600"
+                    android:textSize="@dimen/font_small" />
+
+                <Spinner
+                    android:id="@+id/sHomeCountry"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/space_half"
+                    android:layout_marginTop="@dimen/space"
+                    android:entries="@array/dummy_array"
+                    android:focusable="false"
+                    android:spinnerMode="dialog" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:background="@color/grey_700" />
+
+                <!--View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:layout_marginTop="@dimen/space"
+                    android:background="@color/mandatoryFieldColor" /-->
+
+                <!--HOME PROVINCE-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginTop="@dimen/space_double"
+                    android:text="@string/kyc.home_province"
+                    android:textColor="@color/red_600"
+                    android:textSize="@dimen/font_small" />
+
+                <Spinner
+                    android:id="@+id/sHomeProvince"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/space_half"
+                    android:layout_marginTop="@dimen/space"
+                    android:entries="@array/dummy_array"
+                    android:focusable="false"
+                    android:spinnerMode="dialog" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:background="@color/grey_700" />
+
+                <!--View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:layout_marginTop="@dimen/space"
+                    android:background="@color/mandatoryFieldColor" /-->
+
+                <!--HOME CITY-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginTop="@dimen/space_double"
+                    android:text="@string/kyc.home_city"
+                    android:textColor="@color/red_600"
+                    android:textSize="@dimen/font_small" />
+
+                <Spinner
+                    android:id="@+id/sHomeCity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/space_half"
+                    android:layout_marginTop="@dimen/space"
+                    android:entries="@array/dummy_array"
+                    android:focusable="false"
+                    android:spinnerMode="dialog" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:background="@color/grey_700" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginTop="@dimen/space_double"
+                    android:text="@string/kyc.home_postal_code"
+                    android:textColor="@color/red_600"
+                    android:textSize="@dimen/font_small" />
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/etHomePostalCode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:maxLength="5"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/font_medium" />
+
+                    <!--View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.1dp"
+                        android:layout_marginLeft="@dimen/space_half"
+                        android:layout_marginRight="@dimen/space_half"
+                        android:background="@color/mandatoryFieldColor" /-->
+
+                </android.support.design.widget.TextInputLayout>
+
+                <!--HOME PHONE NUMBER-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginTop="@dimen/space_double"
+                    android:text="@string/kyc.home_phone_number"
+                    android:textColor="@color/red_600"
+                    android:textSize="@dimen/font_small" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/etCountryCode"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/space_half"
+                        android:layout_weight="1"
+                        android:hint="@string/kyc.country_code"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:maxLength="3"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/font_medium" />
+
+                    <EditText
+                        android:id="@+id/etCityCode"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/space_half"
+                        android:layout_marginRight="@dimen/space_half"
+                        android:layout_weight="1"
+                        android:hint="@string/kyc.city_code"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:maxLength="5"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/font_medium" />
+
+                    <EditText
+                        android:id="@+id/etHomePhoneNumber"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:hint="@string/kyc.phone_number"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:maxLength="12"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/font_medium" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!--Investment-->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/space_double"
+                android:paddingLeft="@dimen/space"
+                android:paddingRight="@dimen/space"
+                android:paddingTop="@dimen/space_double">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Profile Investasi"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/font_big"
+                    android:layout_marginBottom="@dimen/space"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/grey_400"
+                    android:layout_marginBottom="@dimen/space"></LinearLayout>
+
+                <!--SOURCE OF INCOME-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginTop="@dimen/space_double"
+                    android:text="@string/kyc.source_of_income"
+                    android:textColor="@color/red_600"
+                    android:textSize="@dimen/font_small" />
+
+                <Spinner
+                    android:id="@+id/sSourceOfIncome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/space_half"
+                    android:layout_marginTop="@dimen/space"
+                    android:entries="@array/dummy_array"
+                    android:focusable="false"
+                    android:spinnerMode="dialog" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:background="@color/grey_700" />
+
+                <!--View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:layout_marginTop="@dimen/space"
+                    android:background="@color/mandatoryFieldColor" /-->
+
+                <!--TOTAL OF INCOME-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginTop="@dimen/space_double"
+                    android:text="@string/kyc.total_of_income"
+                    android:textColor="@color/red_600"
+                    android:textSize="@dimen/font_small" />
+
+                <Spinner
+                    android:id="@+id/sTotalOfIncome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/space_half"
+                    android:layout_marginTop="@dimen/space"
+                    android:entries="@array/dummy_array"
+                    android:focusable="false"
+                    android:spinnerMode="dialog" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:background="@color/grey_700" />
+
+                <!--View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:layout_marginTop="@dimen/space"
+                    android:background="@color/mandatoryFieldColor" /-->
+
+
+                <!--TOTAL ASSET-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginTop="@dimen/space_double"
+                    android:text="@string/kyc.total_asset"
+                    android:textColor="@color/red_600"
+                    android:textSize="@dimen/font_small" />
+
+                <Spinner
+                    android:id="@+id/sTotalAsset"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/space_half"
+                    android:layout_marginTop="@dimen/space"
+                    android:entries="@array/dummy_array"
+                    android:focusable="false"
+                    android:spinnerMode="dialog" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:background="@color/grey_700" />
+
+                <!--View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:layout_marginTop="@dimen/space"
+                    android:background="@color/mandatoryFieldColor" /-->
+
+
+                <!--INVESTMENT PURPOSE-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginTop="@dimen/space_double"
+                    android:text="@string/kyc.investment_purpose"
+                    android:textColor="@color/red_600"
+                    android:textSize="@dimen/font_small" />
+
+                <Spinner
+                    android:id="@+id/sInvestmentPurpose"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/space_half"
+                    android:layout_marginTop="@dimen/space"
+                    android:entries="@array/dummy_array"
+                    android:focusable="false"
+                    android:spinnerMode="dialog" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:background="@color/grey_700" />
+
+                <!--View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:layout_marginTop="@dimen/space"
+                    android:background="@color/mandatoryFieldColor" /-->
+
+                <!--INVESTMENT EXPERIENCE-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginTop="@dimen/space_double"
+                    android:text="@string/kyc.investment_experience"
+                    android:textColor="@color/red_600"
+                    android:textSize="@dimen/font_small" />
+
+                <Spinner
+                    android:id="@+id/sInvestmentExperience"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/space_half"
+                    android:layout_marginTop="@dimen/space"
+                    android:entries="@array/dummy_array"
+                    android:focusable="false"
+                    android:spinnerMode="dialog" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:background="@color/grey_700" />
+
+                <!--View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:layout_marginTop="@dimen/space"
+                    android:background="@color/mandatoryFieldColor" /-->
+
+                <!-- INVESTMENT EXPERIENCE OTHER -->
+                <LinearLayout
+                    android:id="@+id/l_other_investment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="invisible">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/space_half"
+                        android:layout_marginTop="@dimen/space_double"
+                        android:text="@string/kyc.investment_experience.other"
+                        android:textColor="@color/red_600"
+                        android:textSize="@dimen/font_small"/>
+
+                    <EditText
+                        android:id="@+id/etOtherInvestmentExperience"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLength="50"
+                        android:maxLines="1"
+                        android:inputType="text"
+                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                        android:layout_marginTop="@dimen/space"/>
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/edtHidden"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:text="hiddenfordata"
+                    android:singleLine="true"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/font_medium"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+
+            <!--Settlement-->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/space_double"
+                android:paddingLeft="@dimen/space"
+                android:paddingRight="@dimen/space"
+                android:paddingTop="@dimen/space_double">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="@dimen/space_double"
+                    android:layout_height="wrap_content"
+                    android:text="Data Rekening Bank Nasabah"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/font_big"
+                    android:layout_marginBottom="@dimen/space"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/grey_400"
+                    android:layout_marginBottom="@dimen/space"></LinearLayout>
+
+                <!--BANK NAME-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:text="@string/kyc.bank"
+                    android:textSize="@dimen/font_small"
+                    android:textColor="@color/red_600"/>
+
+                <Spinner
+                    android:id="@+id/sBankName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/space_half"
+                    android:layout_marginTop="@dimen/space"
+                    android:entries="@array/dummy_array"
+                    android:focusable="false"
+                    android:spinnerMode="dialog" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:background="@color/grey_700" />
+
+                <!--View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:layout_marginTop="@dimen/space"
+                    android:background="@color/mandatoryFieldColor" /-->
+
+                <!--BRANCH NAME-->
+
+                <!--TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginTop="@dimen/space_double"
+                    android:text="@string/kyc.branch"
+                    android:textColor="@color/hintColor"
+                    android:textSize="@dimen/font_small" />
+
+                <Spinner
+                    android:id="@+id/sBranchName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/space_half"
+                    android:layout_marginTop="@dimen/space"
+                    android:entries="@array/dummy_array"
+                    android:focusable="false"
+                    android:spinnerMode="dialog" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:background="@color/grey_700" /-->
+
+                <!--View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:layout_marginTop="@dimen/space"
+                    android:background="@color/mandatoryFieldColor" /-->
+
+                <!--ACCOUNT NUMBER-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:text="@string/kyc.account_number"
+                    android:layout_marginTop="@dimen/space_double"
+                    android:textSize="@dimen/font_small"
+                    android:textColor="@color/red_600"/>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/etAccountNumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:maxLength="20"
+                        android:maxLines="1"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/font_medium" />
+
+                    <!--View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.1dp"
+                        android:layout_marginLeft="@dimen/space_half"
+                        android:layout_marginRight="@dimen/space_half"
+                        android:background="@color/mandatoryFieldColor" /-->
+
+                </android.support.design.widget.TextInputLayout>
+
+                <!--ACCOUNT NAME-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:text="@string/kyc.account_name"
+                    android:layout_marginTop="@dimen/space_double"
+                    android:textSize="@dimen/font_small"
+                    android:textColor="@color/red_600"/>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/etAccountName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                        android:maxLines="1"
+                        android:maxLength="50"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/font_medium" />
+
+                    <!--View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.1dp"
+                        android:layout_marginLeft="@dimen/space_half"
+                        android:layout_marginRight="@dimen/space_half"
+                        android:background="@color/mandatoryFieldColor" /-->
+
+                </android.support.design.widget.TextInputLayout>
+
+
+
+                <TextView
+                    android:layout_marginTop="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/red_600"
+                    android:text="Scan/Foto/Screenshot Buku Tabungan"/>
+
+                <LinearLayout
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imvBankBook"
+                        android:layout_marginTop="8dp"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/grey_300"
+                        android:contentDescription="@string/app_name"
+                        android:scaleType="centerCrop" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <Button
+                            android:layout_marginTop="8dp"
+                            android:id="@+id/btSettlementPhoto"
+                            android:textAllCaps="false"
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Upload"/>
+
+                        <TextView
+                            android:id="@+id/doc4"
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:id="@+id/btnSubmit"
+                android:textColor="@color/white"
+                android:background="@color/red_600"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

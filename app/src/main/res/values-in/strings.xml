@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Finvest</string>
+    <string name="action_settings">Settings</string>
+
+    <!--COMMON TERMS-->
+
+    <string name="add_reminder">Tambah Pengingat</string>
+    <string name="answer">Jawaban</string>
+    <string name="ok">OK</string>
+    <string name="yes">Iya</string>
+    <string name="no">Tidak</string>
+    <string name="agree">Setuju</string>
+    <string name="start">Mulai</string>
+    <string name="stop">Berhenti</string>
+    <string name="open">Buka</string>
+    <string name="close">Tutup</string>
+    <string name="contact_us">Hubungi Kami</string>
+    <string name="address">Alamat</string>
+    <string name="kyc.name">Nama</string>
+    <string name="kyc.middle_name">Nama Tengah</string>
+    <string name="signup.first_name">Nama Depan</string>
+    <string name="signup.last_name">Nama Belakang</string>
+    <string name="signup.middle_name">Nama Tengah</string>
+    <string name="signup.phone_number">Nomor Telepon</string>
+    <string name="signup.mobile_phone_number">Nomor Handphone</string>
+    <string name="signup.confirm_password">Konfirmasi Password</string>
+    <string name="signup.security_question">Pertanyaan Keamanan</string>
+    <string name="signup.security_answer.hint">Jawaban</string>
+    <string name="signup.password_hint">6-12 karakter, terdiri dari kombinasi angka, huruf besar, dan huruf kecil.</string>
+    <string name="sign_up">Daftar</string>
+    <string name="signup.registration">Registrasi</string>
+    <string name="activation.activate">Aktivasi</string>
+    <string name="activation.title">Aktivasi Akun</string>
+    <string name="activation.hint">Masukan Kode Aktivasi Anda</string>
+    <string name="activation.resend">Kirim Ulang Kode</string>
+    <string name="activation.clue">Kode Aktivasi telah dikirim ke email %s</string>
+    <string name="add">Tambah</string>
+    <string name="are_u_sure">Apakah Anda Yakin?</string>
+    <string name="kyc.first_name">Nama depan<font color="red">*</font></string>
+    <string name="kyc.gender">Jenis Kelamin<font color="red">*</font></string>
+    <string name="kyc.date">Tanggal</string>
+    <string name="kyc.country">Negara</string>
+    <string name="kyc.country_code">62</string>
+    <string name="kyc.last_name">Nama belakang<font color="red">*</font></string>
+    <string name="kyc.nationality">Kewarganegeraan</string>
+    <string name="kyc.occupation">Pekerjaan<font color="red">*</font></string>
+    <string name="kyc.nature_of_business">Bidang Usaha<font color="red">*</font></string>
+    <string name="kyc.month">Bulan</string>
+    <string name="kyc.religion">Agama<font color="red">*</font></string>
+    <string name="kyc.source_of_income">Sumber Dana<font color="red">*</font></string>
+    <string name="kyc.relationship">Hubungan</string>
+    <string name="kyc.phone_number">00001</string>
+    <string name="kyc.investment_purpose">Tujuan Investasi<font color="red">*</font></string>
+    <string name="kyc.id_type">Tipe Kartu Identitas</string>
+    <string name="kyc.investment_experience">Pengalaman Investasi<font color="red">*</font></string>
+    <string name="kyc.account_name">Nama pemilik akun<font color="red">*</font></string>
+    <string name="kyc.account_number">Nomor rekening<font color="red">*</font></string>
+    <string name="kyc.branch">Kantor Cabang</string>
+    <string name="kyc.birthplace">Tempat Lahir<font color="red">*</font></string>
+    <string name="kyc.birthdate">Tanggal Lahir<font color="red">*</font></string>
+    <string name="infortmation">Informasi</string>
+    <string name="kyc.office_address">Alamat Tempat Bekerja</string>
+    <string name="welcome">Selamat Datang</string>
+    <string name="user.personal_information">Informasi Pribadi</string>
+    <string name="user.phone_number">Nomor Telepon</string>
+    <string name="user.mobile_number">Nomor Handphone</string>
+    <string name="user.middle_name">Nama Tengah</string>
+    <string name="user.last_name">Nama Belakang</string>
+    <string name="user.first_name">Nama Depan</string>
+    <string name="user.change_password">Ubah Password</string>
+    <string name="user.answer">Jawaban</string>
+    <string name="try_again">Coba Lagi</string>
+    <string name="total">Total</string>
+    <string name="summary.account_number">Nomor Rekening</string>
+    <string name="summary.account_name">Nama Pemilik</string>
+    <string name="summary.bank_name">Nama Bank</string>
+    <string name="summary.branch">Kantor Cabang</string>
+    <string name="success">Sukses</string>
+    <string name="sorry">Maaf</string>
+    <string name="signup.security_answer">Jawaban Anda</string>
+    <string name="signin.forgot_password">Lupa <b>Password?</b></string>
+    <string name="register">Registrasi</string>
+    <string name="pndtrx.trx_type">Tipe Transaksi</string>
+    <string name="pndtrx.trx_status">Status Transaksi</string>
+    <string name="pndtrx.trx_date">Tanggal Transaksi</string>
+    <string name="pndtrx.time">Waktu</string>
+    <string name="pndtrx.payment_type">Tipe Pembayaran</string>
+    <string name="phone_number">Nomor Telepon</string>
+    <string name="kyc.year">Tahun</string>
+    <string name="kyc.total_of_income">Total Pendapatan per Tahun<font color="red">*</font></string>
+    <string name="kyc.id_exp_date">Tanggal berlaku KTP<font color="red">*</font></string>
+    <string name="kyc.id_number">Nomor KTP<font color="red">*</font></string>
+    <string name="kyc.bank">Bank<font color="red">*</font></string>
+    <string name="gender">Jenis Kelamain</string>
+    <string name="fund_alloc.type">"Tipe : "</string>
+    <string name="forgot_pwd.security_answer">Jawaban keamanan</string>
+    <string name="forgot_pwd.security_question">Pertanyaan Keamanan</string>
+    <string name="error">Error</string>
+    <string name="email">Email</string>
+    <string name="faq">FAQ</string>
+    <string name="failed">Gagal</string>
+    <string name="expired_session">Sesi anda telah berakhir, mohon masuk kembali</string>
+    <string name="exit_apps">Keluar Aplikasi?</string>
+    <string name="description">Deskripsi</string>
+    <string name="delete">Hapus</string>
+    <string name="date_birth">Tanggal Lahir</string>
+    <string name="date_id">Tanggal Berlaku KTP</string>
+    <string name="kyc.mother_maiden_name">Nama Ibu Kandung<font color="red">*</font></string>
+    <string name="kyc.marital_status">Status perkawinan<font color="red">*</font></string>
+    <string name="kyc.legal_province">Provinsi<font color="red">*</font></string>
+    <string name="kyc.legal_postal_code">Kode Pos<font color="red">*</font></string>
+    <string name="kyc.legal_phone_number">Nomor Telepon<font color="red">*</font></string>
+    <string name="kyc.legal_country">Negara<font color="red">*</font></string>
+    <string name="kyc.legal_address">Alamat surat-menyurat<font color="red">*</font></string>
+    <string name="kyc.legal_city">Kota<font color="red">*</font></string>
+    <string name="kyc.home_address">Alamat rumah<font color="red">*</font></string>
+    <string name="kyc.home_city">Kota<font color="red">*</font></string>
+    <string name="kyc.home_country">Negara<font color="red">*</font></string>
+    <string name="kyc.home_phone_number">Nomor Telepon<font color="red">*</font></string>
+    <string name="kyc.home_postal_code">Kode Pos<font color="red">*</font></string>
+    <string name="kyc.home_province">Provinsi<font color="red">*</font></string>
+    <string name="kyc.tax_id_registration_date">Tanggal Pembuatan NPWP</string>
+    <string name="kyc.total_asset">Total Aset<font color="red">*</font></string>
+    <string name="kyc.tax_id">Nomor NPWP</string>
+    <string name="history.pkg_name">Nama Produk</string>
+    <string name="history.pay_type">Cara Pembayaran</string>
+    <string name="history.order_number">Nomor Pesanan</string>
+    <string name="history.trx_date">Tanggal Transaksi</string>
+    <string name="history.trx_status">Status Transaksi</string>
+    <string name="history.trx_type">Tipe Transaksi</string>
+    <string name="history.time">Waktu</string>
+    <string name="history.inv_number">No. Rekening Investasi</string>
+    <string name="history.amount">Jumlah</string>
+    <string name="kyc.public_function">Fungsi Umum</string>
+    <string name="kyc.office_city">Kota</string>
+    <string name="kyc.office_country">Negara</string>
+    <string name="kyc.office_phone_number">Nomor Telepon Kantor</string>
+    <string name="kyc.office_postal_code">Kode Pos</string>
+    <string name="kyc.office_province">Provinsi</string>
+    <string name="kyc.position_duties">Posisi</string>
+    <string name="kyc.email">Email</string>
+    <string name="kyc.employer_name">Nama Tempat Bekerja</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <!--Menu-->
+    <string name="menu.about_us">Tentang Kami</string>
+    <string name="menu.catalogue">Produk</string>
+    <string name="menu.dashboard">Dashboard</string>
+    <string name="menu.logout">Logout</string>
+    <string name="menu.menu">Menu</string>
+    <string name="menu.portfolio">Portofolio</string>
+    <string name="menu.reminder">Pengingat</string>
+    <string name="menu.statistic">Kelengkapan Data</string>
+    <string name="menu.setting">Pengaturan</string>
+    <string name="menu.wallet">Visee Pay</string>
+    <string name="menu.profile">Profil</string>
+    <string name="menu.terms.and.condition">Syarat Dan Ketentuan</string>
+    <string name="menu.privacy.policy">Kebijakan Privasi</string>
+    <string name="menu.contactus">Hubungi Kami</string>
+    <string name="menu.goto">Menuju Ke Menu Utama</string>
+    <string name="menu.support">Bantuan</string>
+    <string name="menu.user_profile">Profil Saya</string>
+    <string name="menu.transaction">Transaksi</string>
+    <string name="menu.goal.planner">Goal Planner</string>
+    <string name="menu.your.order">Pesanan Anda</string>
+    <!---->
+    <string name="min_subscription">Min. Pembelian</string>
+    <string name="min_topup">Min. Top Up</string>
+    <string name="name">Nama</string>
+    <string name="no_data">Tidak ada data</string>
+    <string name="no_reminder">Anda belum memiliki pengingat</string>
+    <string name="next">Berikutnya</string>
+    <string name="package_performance">Performa</string>
+    <string name="password">Password</string>
+    <string name="payment.transfer">Transfer</string>
+    <string name="more_than">lebih dari</string>
+    <string name="payment.wallet">Fin Pay</string>
+    <string name="pndtrx.package_name">Nama Produk</string>
+    <string name="pndtrx.inv_number">No. Rekening Investasi</string>
+    <string name="please_wait">Mohon Tunggu</string>
+    <string name="pndtrx.amount">Jumlah</string>
+    <string name="pndtrx.order_number">Nomor Pesanan</string>
+    <string name="portfolio.agree_topup">Setuju dan Top Up</string>
+    <string name="portfolio.goal">Goal</string>
+    <string name="portfolio.gain_loss">Perkiraan Untung/Rugi</string>
+    <string name="portfolio.market_value">Perkiraan Nilai Pasar</string>
+    <string name="portfolio.investment_number">No Rekening Investasi</string>
+    <string name="portfolio.investment_amount">Total Investasi</string>
+    <string name="portfolio.package_name">Nama Produk</string>
+    <string name="portfolio.top_up">Cara Isi Saldo</string>
+    <string name="portfolio.total_gainloss">Total Perkiraan Untung/Rugi</string>
+    <string name="portfolio.total_inv">Total Investasi</string>
+    <string name="portfolio.total_marketvalue">Total Perkiraan Nilai Investasi</string>
+    <string name="question">Pertanyaan</string>
+    <string name="redemption.confirm">Konfirmasi</string>
+    <string name="redemption.market_value">Perkiraan Nilai Pasar</string>
+    <string name="redemption.order_number">Nomor Pesanan</string>
+    <string name="redemption.package_name">Nama Produk</string>
+    <string name="redemption.pin">PIN</string>
+    <string name="redemption.investment">Investasi</string>
+    <string name="refresh">Refresh</string>
+    <string name="search">Cari</string>
+    <string name="rules.password">6-12 karakter dan minimal terdiri dari angka dan dikombinasikan dengan huruf besar dan kecil</string>
+    <string name="save">Simpan</string>
+    <string name="sign_in">Masuk</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="signin.clue.no_account">Belum memiliki akun?</string>
+    <string name="signup.62.hint">+62</string>
+    <string name="signup.area.hint">Area</string>
+    <string name="signup.city_code">01</string>
+    <string name="signup.country_code">62</string>
+    <string name="signup.email">Email</string>
+    <string name="signup.email.hint">Ketik Email Anda</string>
+    <string name="signup.mobile_phone.hint">0000000001</string>
+    <string name="signup.password">Password</string>
+    <string name="signup.phone.hint">00001</string>
+    <string name="signup.security_question.hint">Pilih pertanyaan Keamanan anda</string>
+    <string name="submit">Submit</string>
+    <string name="summary.order_number">Nomor Pesanan</string>
+    <string name="support.contact_information">NSI Building Batu Tulis Raya No. 24A, Kebon Kelapa Gambir, Jakarta Pusat, 10120 DKI Jakarta, Indonesia Telp: +62 21 3523 626 Email: support@invisee.com</string>
+    <string name="user.change_picture">Ubah Foto</string>
+    <string name="user.change_security_pin">Ubah Security PIN</string>
+    <string name="user.edit">Ubah</string>
+    <string name="user.email">Email</string>
+    <string name="user.security_quetion">Pertanyaan Keamanan</string>
+    <string name="user_profile.kyc">KYC</string>
+    <string name="username">Username</string>
+    <string name="wallet.transaction_history">Riwayat Transaksi</string>
+    <string name="user_profile">Profil Saya</string>
+    <string name="user_profile.fatca">FATCA dan CRS</string>
+    <string name="fatca.alien">Apakah anda seorang penduduk asing di luar AS?</string>
+    <string name="fatca.born">Apakah anda lahir di AS?</string>
+    <string name="fatca.citizen">Apakah anda seorang warga negara AS?</string>
+    <string name="fatca.current_mailing">Apakah anda memiliki alamat surat AS saat ini (termasuk PO Box AS)?</string>
+    <string name="fatca.current_residence">Apakah anda memiliki alamat tempat tinggal di AS saat ini?</string>
+    <string name="fatca.holdmail">Apakah anda memiliki \"pertanggungan\" alamat atau \"memegang\" alamat yang satu-satunya alamat untuk akun (apakah alamat tersebut di AS atau di AS)?</string>
+    <string name="fatca.resident">Apakah anda bertempat tinggal di AS?</string>
+    <string name="fatca.signatory">Apakah anda mengeluarkan kuasa atau otoritas penandatangan diberikan kepada seseorang dengan alamat di AS?</string>
+    <string name="fatca.telephone">Apakah anda memiliki nomor telefon AS?</string>
+    <string name="fatca.transfer">Apakah Anda mengeluarkan instruksi untuk mentransfer dana ke rekening di AS?</string>
+    <string name="risk_profile.result">Risiko profil anda adalah</string>
+    <string name="risk_category">Tingkat Risiko</string>
+    <string name="reminder.time">Waktu Pengingat</string>
+    <string name="user_profile.risk_profile">Konfirmasi Data Profil</string>
+    <string name="user_profile.suggestion">Mohon Lengkapi Data Profile Anda Terlebih Dahulu</string>
+    <string name="user_profile.exit">Keluar menu profil?</string>
+    <string name="user_profile.fatca.open">Buka Formulir FATCA?</string>
+    <string name="user_profile.kyc.open">Buka Formulir KYC?</string>
+    <string name="user_profile.risk_profile.no_open">Profil Risiko belum bisa di buka. Mohon isi formulir KYC dan FATCA terlebih dahulu</string>
+    <string name="user_profile.risk_profile.open">Buka Formulir Profil Risiko?</string>
+    <string name="wallet.balance">Saldo</string>
+    <string name="user_profile.fatca.no_open">FATCA belum bisa di buka. Mohon isi formulir KYC dan FATCA terlebih dahulu</string>
+    <string name="user_profile.confirmation">Konfirmasi Informasi Pribadi Anda</string>
+    <string name="user_profile.confirmation_msg">Kami akan mengirim informasi pribadi anda ke database daftar persetujuan kami</string>
+    <string name="weekly">Mingguan</string>
+    <string name="edit">Ubah</string>
+    <string name="days">Hari</string>
+    <string name="checkout.proceed">Diproses</string>
+    <string name="checkout.confirm">Konfirmasi</string>
+    <string name="connection_error">Connection Error</string>
+    <string name="connection_error_swipe">Connection Error. Swipe to Reload</string>
+    <string name="dashboard.news_feed">Belajar Reksa Dana</string>
+    <string name="cart.delete">Hapus</string>
+    <string name="catalogue.subscribe_now">Beli</string>
+    <string name="catalogue.view_packages">Lihat Produk Lainnya</string>
+    <string name="cart">Cart</string>
+    <string name="cancel">Batal</string>
+    <string name="business_rule">Info Produk</string>
+    <string name="auto_logout">Auto Logout</string>
+    <string name="cart.checkout">Proses Pembelian</string>
+    <string name="catalogue.show_more">Selengkapnya</string>
+    <string name="currency">Mata Uang</string>
+    <string name="transaction_cut_off">Batas Waktu Transaksi</string>
+    <string name="subscription_fee">Biaya Pembelian</string>
+    <string name="settlement_cut_off">Batas Waktu Transaksi</string>
+    <string name="settlement_pay_off">Batas Waktu Pembayaran</string>
+    <string name="settlement_period">Pembayaran Penjualan Kembali (maks.)</string>
+    <string name="portfolio.no_data">Akun anda belum mempunyai data portofolio</string>
+    <string name="period_days">Periode (Hari)</string>
+    <string name="monthly">Bulanan</string>
+    <string name="annually">Tahunan</string>
+    <string name="amount">Nilai Transaksi</string>
+    <string name="fee">Biaya</string>
+    <string name="cart.terms">Saya telah memahami dan menyetujui isi dari prospektus dan fund fact sheet</string>
+    <string name="cart.error_user_not_verified">Akun anda harus terverifikasi terlebih dahulu</string>
+    <string name="cart.error_terms">Sebelum melanjutkan, Silahkan mencentang kotak pernyataan yang menyatakan bahwa anda telah membaca dan memahami isi dari prospektus produk yang akan anda beli</string>
+    <string name="forgot_pwd.email">Masukkan Email Anda</string>
+    <string name="forgot_pwd.resend_code">Kirim ulang kode</string>
+    <string name="forgot_pwd.password">Password Baru</string>
+    <string name="forgot_pwd.confirm_password">Konfirmasi Password Baru</string>
+    <string name="forgot_pwd.reset_code">Masukkan Kode Reset</string>
+    <string name="forgot_pwd.reset">Reset</string>
+    <string name="forgot_pwd.title">Lupa Password</string>
+    <string name="forgot_pwd.title_reset">Reset Password</string>
+    <string name="fund_alloc">Pengalokasian</string>
+    <string name="detail_trans">Detail Transaksi</string>
+    <string name="catalogue.confirm_subscription">Transaksi anda berhasil dimasukkan kedalam cart, apakah anda ingin menampilkannya sekarang ?</string>
+    <string name="catalogue.act.dialog">Sebelum anda dapat memulai investasi dengan Finvest, silahkan lengkapi data anda terlebih dahulu. Lengkapi sekarang?</string>
+    <string name="dashboard.my_portfolio">Rangkuman Investasi</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="kyc.customer_email">Email</string>
+    <string name="kyc.education_background">Latar Belakang Pendidikan<font color="red">*</font></string>
+    <string name="fund_alloc.market_value">Perkiraan Nilai Pasar :</string>
+    <string name="later">Nanti</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="kyc.year_of_service">Tahun Pelayanan</string>
+    <string name="kyc.city_code">21</string>
+    <string name="kyc.citizenship">Kependudukan</string>
+    <string name="redemption.security_pin">Security PIN</string>
+    <string name="forgot_pwd.subtitle">Jika anda lupa password</string>
+    <string name="dashboard.pending_order">Pesanan Anda</string>
+    <string name="effective_date">NAB per tanggal</string>
+    <string name="day">Hari</string>
+    <string name="reminder.start_date">Tanggal Mulai Pengingat</string>
+    <string name="reminder.interval">Periode Alarm</string>
+    <string name="reminder.end_date">Tanggal Akhir Pengingat</string>
+    <string name="reminder.top_up_amount">Nilai Top Up</string>
+    <string name="retry">Coba Kembali</string>
+    <string name="rules.no_empty">Mohon isi kolom ini</string>
+    <string name="rules.no_empty.email">Mohon masukkan email anda</string>
+    <string name="redemption_fee">Biaya Penjualan Kembali</string>
+    <string name="rules.min.password">Format Password Salah</string>
+    <string name="rules.no_empty.end_date">Mohon pilih tanggal mulai pengingat</string>
+    <string name="rules.no_empty.username">Mohon isi username</string>
+    <string name="rules.no_empty.reminder_time">Mohon pilih waktu pengingat</string>
+    <string name="rules.no_empty.start_date">Mohon pilih tanggal akhir pengingat</string>
+    <string name="rules.no_empty.top_up_amount">Mohon isi nilai top up</string>
+    <string name="summary.please_transfer_to">Agar pesanan ini dapat segera diproses, silahkan lakukan pembayaran dengan cara melakukan transfer ke rekening berikut :</string>
+    <string name="portfolio.top_up_fee">Biaya Top Up</string>
+    <string name="summary.expired_time">Batas waktu pembayaran adalah sebelum tanggal %1$s</string>
+    <string name="redemption.please_input">Silahkan masukkan digit ke %1$d dan digit ke %2$d dari security PIN</string>
+    <string name="redemption.proceed">Diproses</string>
+    <string name="redemption.transfer_to">Hasil penjualan kembali akan ditransfer ke rekening anda sebagai berikut :</string>
+    <string name="portfolio.start_to_invest">Mulai Investasi</string>
+    <string name="portfolio.subscribe">Subscribe</string>
+    <string name="portfolio.savings">Tabungan</string>
+    <string name="kyc.salutation">Gelar</string>
+    <string name="kyc.error">Error ketika mencoba mengambil data KYC</string>
+    <string name="kyc.beneficiary_name">Nama Ahli Waris</string>
+    <string name="fund_alloc.allocation">Alokasi (%) :</string>
+    <string name="forgot_pwd.clue">Mohon cek email anda setelah mengirim permintaan</string>
+    <string name="redemption.account">Akun Penjualan Kembali</string>
+    <string name="prospectus">Prospektus</string>
+    <string name="redemption.agree">Saya telah membaca dan memahami ketentuan produk ini</string>
+    <string name="redemption.fee_percent">Biaya (%)</string>
+    <string name="fund_fact_sheet">Fund Fact Sheet</string>
+    <string name="fund_alloc.fund_name">Nama Reksadana : </string>
+    <string name="portfolio.redemption">Penjualan Kembali</string>
+    <string name="portfolio.topup_agreement">Saya telah memahami dan menyetujui isi dari prospektus dan fund fact sheet</string>
+    <string name="fund_alloc.current_unit">Unit :</string>
+    <string name="risk_profile.goal">Untuk Investasi Ini, Saya setuju</string>
+    <string name="risk_profile.confirmation">Profil anda akan diverifikasi oleh petugas kami. \n Pastikan data anda sudah benar dan setuju dengan Kebijakan Privasi FINVEST</string>
+
+    <string name="redemption.disclaimer">Ketentuan</string>
+    <string name="redemption.grand_total">Total Keseluruhan</string>
+    <string name="redemption.redeem_amount_indicative">Nilai Penjualan Kembali (Indikasi)</string>
+    <string name="fund_alloc.inv_manager">Manager Investasi :</string>
+    <string name="kyc.beneficiary_relationship">Hubungan Dengan Ahli Waris</string>
+    <string name="fund_alloc.last_nav">NAB Akhir :</string>
+    <string name="portfolio.unrealize_gainloss">Perkiraan Untung/Rugi</string>
+    <string name="kyc.preferred_mailing_address">Alamat Email Yang Dituju</string>
+    <string name="cart.error_minimum_amount">Mohon cek nilai transaksi anda tidak kurang dari minimum subscription/topup</string>
+    <string name="redemption.disclaimer_1">Instruksi Penjualan Reksa Dana yang diterima oleh sistem Finvest sebelum cut off time pada pukul 12:00 akan diproses menggunakan NAB pada hari tersebut.</string>
+    <string name="redemption.disclaimer_2">Instruksi Penjualan Reksa Dana yang di terima oleh sistem Finvest sesudah cut off time pada pukul 12:00 akan di proses menggunakan NAB pada hari kerja berikutnya.</string>
+    <string name="redemption.disclaimer_3">Bank Custodian akan mentransfer nominal hasil penjualan reksa dana ke rekening anda selambat-lambatnya 7(tujuh) hari bursa. Pastikan data rekening yang tercantum sesuai dengan rekening anda.</string>
+    <string name="redemption.disclaimer_4">Instruksi Penjualan akan otomatis dicairkan seluruhnya jika melebihi ketentuan saldo minimum Reksa Dana</string>
+    <string name="redemption.expired_time">Pembayaran dilakukan oleh bank kustodian produk selambat - lambatnya pada %1$s, Untuk informasi lebih lanjut, silahkan hubungi (021) 352 3626 atau kirimkan email ke support@invisee.com</string>
+    <string name="wallet.number_account">Nomor Akun</string>
+    <string name="user_profile.send_pin">Kirim PIN</string>
+    <!--<string name="menu.contactus">Hubungi Kami</string>-->
+    <string name="user_profile.change">Ubah Profil</string>
+    <string name="address.nsi">Kirana Boutique Office Jalan Kirana Avenue Blok G3 No. 1-2 Kelapa Gading - Jakarta Utara 14240</string>
+    <string name="terms.and.condition">Syarat Dan Ketentuan</string>
+
+    <!--  Terms and condition Title-->
+    <string name="terms.and.condition_title1">1. Tujuan</string>
+    <string name="terms.and.condition_title2">2. Hak Atas Kekayaan Intelektual</string>
+    <string name="terms.and.condition_title3">3. Kelayakan</string>
+    <string name="terms.and.condition_title4">4. Jaminan mengenai Konten</string>
+    <string name="terms.and.condition_title5">5. Non Liabilitas</string>
+    <string name="terms.and.condition_title6">6. Tautan ke Media Pihak Ketiga</string>
+    <string name="terms.and.condition_title7">7. Pernyataan untuk Pandangan ke Masa Depan</string>
+    <string name="terms.and.condition_title8">8. Risiko</string>
+    <string name="terms.and.condition_title9">9. Penggunaan Data</string>
+    <string name="terms.and.condition_title10">10. Perubahan pada Syarat dan Ketentuan</string>
+
+
+    <!--  Terms and condition Desc-->
+    <string name="terms.and.condition_desc">Selamat datang di Situs dan Aplikasi untuk perangkat bergerak dari PT. Nusantara Sejahtera Investama (NSI), yang dikenal dengan nama Finvest. Berikut ini adalah Syarat dan Ketentuan (Syarat dan Ketentuan) yang mengatur tentang penggunaan Finvest. Dengan menggunakan Finvest, Anda (sebagai Pengguna) setuju terhadap Syarat dan Ketentuan ini, serta setuju terhadap Kebijakan Privasi yang dipublikasikan pada situs dan aplikasi Finvest. Jika Anda tidak setuju terhadap Syarat dan Ketentuan atau Kebijakan Privasi tersebut, silahkan untuk tidak menggunakan situs ini.</string>
+    <string name="terms.and.condition_desc1">PT. Nusantara Sejahtera Investama ("NSI"), menyediakan Finvest sebagai layanan yang memungkinkan penggunanya untuk berinvestasi di produk reksa dana. Pengguna Finvest dianggap sebagai nasabah NSI setelah pengguna tersebut menyelesaikan transaksi pertamanya di Finvest. Namun pengguna Finvest tetap merupakan subyek dari Syarat dan Ketentuan ini walaupun belum menjadi nasabah NSI.</string>
+    <string name="terms.and.condition_desc2">Hak Cipta konten termasuk tetapi tidak terbatas tulisan, teks, gambar, photographs, animation, data, video yang ada pada Finvest, situs dan aplikasi untuk perangkat bergerak Finvest merupakan dan tetap menjadi kepemilikan NSI. Hak Cipta ini dilindungi oleh Undang-Undang Hak Cipta dan peraturan lain yang terkait serta traktat-traktat internasional tentang hak cipta. Setiap orang dilarang untuk menggunakan konten diluar ketentuan yang diperbolehkan secara tegas oleh peraturan perundang-undangan, termasuk menggandakan, mendistribusikan, mengubah, menyiarkan, menggunakan kembali, memindahkan ataupun membuat karya derivatif dari Finvest tanpa izin tertulis dari NSI. Permintaan untuk izin tersebut harus tertulis dan dikirimkan ke alamat berikut :</string>
+    <string name="terms.and.condition_desc3">Dengan membuat akun pengguna di Finvest, Anda menunjukkan dan menjamin bahwa anda merupakan Warga Negara Indonesia (WNI), merupakan penduduk Republik Indonesia, dan berumur 18 tahun atau lebih pada saat pembuatan akun pengguna Finvest.</string>
+    <string name="terms.and.condition_desc4">Segala informasi yang dipublikasikan pada situs atau aplikasi untuk perangkat bergerak Finvest hanya dapat digunakan untuk tujuan informasi dan bukan sebagai saran, rekomendasi atau ajakan untuk menjual atau membeli suatu produk investasi tertentu yang terdapat dalam situs atau aplikasi untuk perangkat bergerak Finvest. NSI berusaha dengan itikad baik untuk memberikan informasi yang akurat, namun tidak menjamin bahwa informasi yang diberikan adalah tanpa adanya kesalahan, kelalaian, ketidakakuratan teknis atau faktual ataupun kesalahan pengetikan. Ketentuan ini untuk menegaskan agar tidak dianggap atau seolah-olah agar dianggap sebagai prospektus atau informasi lainnya yang bersifat mengikat. Informasi yang tersedia pada situs atau aplikasi untuk perangkat bergerak Finvest tidak dimaksudkan sebagai pengganti suatu informasi produk investasi seperti prospektus dan informasi resmi lainnya, namun semata-mata hanya sebagai informasi tambahan dan pelengkap.</string>
+    <string name="terms.and.condition_desc5">Informasi yang tersedia dalam situs atau aplikasi untuk perangkat bergerak Finvest disediakan dengan "sebagaimana adanya" dan "sebagaimana tersedia". NSI beserta anak perusahaan, pihak terafiliasi, pemegang saham, pengelola dan karyawannya tidak dapat dimintai pertanggungjawaban secara hukum, baik pidana maupun perdata, atas kerugian yang dialami oleh pengguna akibat menggunakan informasi ini baik karena adanya kesalahan dan ketidakakuratan informasi yang tersedia dalam situs ini atau karena sebab lainnya. NSI berusaha untuk memperbaharui informasi dalam situs atau aplikasi untuk perangkat bergerak Finvest, namun demikian NSI tidak mempunyai kewajiban untuk memperbaharui informasi yang terdapat dalam situs atau aplikasi untuk perangkat bergerak ini. Oleh karena itu, Anda tetap berkewajiban untuk membaca prospektus dan materi lainnya yang relevan sebelum memutuskan untuk membeli atau menjual suatu produk investasi.</string>
+    <string name="terms.and.condition_desc6">Situs atau aplikasi untuk perangkat bergerak Finvest dapat memuat tautan ke situs pihak ketiga yang tidak berada dalam kuasa NSI. Tautan ini tidak menunjukkan adanya dukungan atau rekomendasi terhadap layanan ataupun produk dari pihak ketiga tersebut. Anda setuju untuk tidak meminta pertanggungjawaban NSI atas kesalahan yang terjadi pada layanan atau produk yang ditawarkan pada Media Pihak Ketiga tersebut. Anda memahami bahwa Media Pihak Ketiga tersebut dapat memiliki Syarat dan Ketentuan yang berbeda serta tingkat keamanan yang lebih rendah.</string>
+    <string name="terms.and.condition_desc7">Setiap analisa proyeksi, ataupun pernyataan yang merupakan prediksi suatu produk investasi di masa datang bukan merupakan indikasi kinerja masa yang akan datang. Kinerja masa lalu tidak dapat dijadikan suatu pedoman untuk kinerja masa datang. Anda disarankan mencari bantuan tenaga profesional untuk mendapatkan saran perpajakan, nasehat hukum, akuntansi termasuk risiko investasi yang terdapat didalamnya sebelum melakukan keputusan investasi.</string>
+    <string name="terms.and.condition_desc8">Mohon diperhatikan bahwa berbagai jenis investasi yang terdapat dalam situs atau aplikasi untuk perangkat bergerak Finvest melibatkan berbagai tingkatan risiko dan tidak terdapat jaminan bahwa investasi tertentu cocok, sesuai atau menguntungkan bagi Anda. Setiap produk investasi mengandung risiko dan Anda wajib mencari informasi sebelum membuat keputusan investasi. Kinerja masa lalu tidak mencerminkan kinerja di masa datang.</string>
+    <string name="terms.and.condition_desc9">Penggunaan data Anda diatur setiap waktu oleh Kebijakan Privasi yang terdapat di "Kebijakan Privasi". Pada proses operasional normal, data tersebut dapat diberikan kepada pihak ketiga, dimana penggunaan data tersebut tidak selalu diatur oleh Kebijakan Privasi yang sama. Anda setuju untuk tidak meminta pertanggungjawaban NSI untuk kerugian yang diakibatkan penggunaan data Anda oleh pihak ketiga tersebut. Izin untuk memberikan data Anda akan diminta sewaktu dibutuhkan.</string>
+    <string name="terms.and.condition_desc10">NSI dapat mengubah Syarat dan Ketentuan ini dan Kebijakan Privasi sewaktu-waktu tanpa pemberitahuan sebelumnya. Dengan berlanjutnya Anda menggunakan Finvest menandakan bahwa Anda menerima perubahan Syarat dan Ketentuan tersebut.</string>
+    <string name="privacy.policy">Kebijakan Privasi</string>
+    <string name="privacy.policy.desc">Finvest adalah layanan yang ditawarkan oleh PT Nusantara Sejahtera Investama (\"NSI\") yang memungkinkan pengguna untuk melakukan investasi Reksa Dana secara online. Pengguna akan diminta informasi pribadi, yang nantinya dapat digunakan oleh NSI dalam kegiatan operasional sehari-hari dan dapat dikirimkan kepada pihak yang berkepentingan.     Meskipun data yang dikumpulkan oleh NSI adalah data yang diwajibkan oleh pihak regulator. NSI merasa wajib untuk memberitahukan kepada pengguna secara transparan bagaimana data tersebut dikelola oleh NSI, oleh karenanya prosedur ini dibuat. Prosedur Perlindungan Data Pribadi ini tidak dapat dipisahkan dari Ketentuan Pengguna dalam Finvest.</string>
+    <string name="privacy.policy.desc1">1. Informasi apa yang dikumpulkan, disimpan dan dipakai oleh NSI dan kebutuhannya;  2. Hak dan Tanggung Jawab pengguna terkait penyampai data pribadi pengguna; dan  3. Opsi yang dapat dilakukan oleh pengguna terkait perubahan, penghapusan data pribadi pengguna.</string>
+    <string name="privacy.policy.desc2">1. Informasi yang secara sukarela disampaikan oleh pengguna sebagai bagian dari pendaftaran, prosedur KYC (Know Your Customer) dan proses pemesanan, yang dapat terdiri dari data profil pribadi, alamat kediaman, hubungan keluarga dan kondisi keuangan. Pengguna dapat melihat informasi apa saja yang telah disampaikan secara sukarela pada halaman My Account. Pengumpulan data ini diwajibkan oleh regulator dan oleh karenanya tidak dapat dihilangkan.  2. Informasi yang dihasilkan pengguna atas dasar penggunaan aplikasi oleh pengguna. Informasi ini dapat terdiri dari alamat IP, komposisi dan nilai portofolio dan informasi teknikal terkait dengan perangkat mobile pengguna. NSI akan menggunakan data ini untuk memastikan aplikasi dapat berjalan dengan baik.</string>
+    <string name="privacy.policy.desc3">Mohon diperhatikan bahwa NSI membutuhkan bukti identitas untuk memberikan informasi tersebut.    NSI juga bertanggung jawab untuk menghubungi pengguna secara periodik untuk memastikan bahwa KYC sudah akurat dan ter-update. Hal ini merupakan salah satu bagian dalam kegiatan operasional NSI. Pengguna diharapkan untuk dapat memberikan informasi yang benar dan akurat dan melakukan pengubahan data yang diperlukan.    Pengguna diharapkan untuk dapat selalu melakukan pengubahan data yang diperlukan secara sukarela melalui portal Finvest.    NSI akan mengasumsikan pengguna yang memilih untuk menutup akun Finvest, bahwa pengguna tersebut tidak ingin menggunakan layanan Finvest lagi. Namun, sesuai dengan peraturan yang ada, NSI harus menyimpan informasi tersebut selama 5 tahun. Untuk kenyamanan pengguna, 5 tahun akan dimulai sejak pengguna memilih untuk mengakhiri penggunaan Finvest.    Penutupan rekening Finvest hanya dapat dilakukan jika pengguna sudah melakukan penjualan atas semua Reksa Dana dan Portofolio yang dimiliki.</string>
+    <string name="privacy.policy.desc4">NSI adalah Perusahaan Agen Penjual Reksa Dana (APERD) dan oleh karena itu dalam hubungannya dengan pihak ketiga yang berkepentingan seperti Bank Kustodian ataupun penyedia layanan pembayaran (VISEEPAY), maka NSI dapat memberikan data pengguna kepada pihak yang berkaitan untuk proses pendaftaran dan KYC. Untuk mempermudah proses pendaftaran dengan pihak ketiga, NSI akan meminta persetujuan pengguna dalam memberikan informasi yang sudah disampaikan dalam Finvest secara sukarela kepada pihak ketiga. Namun, Finvest tidak dapat memberitahukan bagaimana cara penggunaan dan penyimpanan data yang dilakukan oleh pihak ketiga.    Dengan menyetujui syarat penggunaan Finvest, pengguna menyetujui pemindahan, pemberitahuan data pengguna tersebut kepada pihak yang terkait lainnya, dalam hal penggunaan datanya untuk disimpan dan diolah untuk pembuatan survei kepuasan nasabah, pengawasan Anti Money Laundering (AML), pelaporan, statistik, kebutuhan pengelolaan risiko dan laporan apapun yang dibutuhkan oleh regulator.</string>
+    <string name="privacy.policy.title1">Prosedur Perlindungan Data Pribadi ini akan menjelaskan:</string>
+    <string name="privacy.policy.title2">Informasi yang dikumpulkan oleh NSI terdiri dari dua (2) tipe informasi:</string>
+    <string name="privacy.policy.title3">Data pengguna dikumpulkan berdasarkan user ID. Pengguna dapat meminta salinan data setiap saat dengan mengirimkan permohonan tertulis ke:</string>
+    <string name="privacy.policy.title4">WAIVER OF DATA PRIVACY</string>
+    <string name="confirm.password">Konfirmasi Password</string>
+    <string name="change.password">Ganti Password</string>
+    <string name="new.password">Password Baru</string>
+    <string name="old.password">Password Lama</string>
+    <string name=".password">Konfirmasi Password</string>
+    <string name="catalogue.diclaimer">Investasi melalui reksa dana mengandung risiko. Calon investor wajib membaca dan memahami prospektus sebelum memutuskan untuk berinvestasi melalui reksa dana. Kinerja masa lalu tidak mencerminkan kinerja di masa mendatang. Laporan ini bersifat informasi dan bukan merupakan suatu penawaran, undangan atau ajakan untuk berinvestasi reksa dana.</string>
+    <string name="catalogue.provision">Ketentuan</string>
+    <string name="one.month">1 M</string>
+    <string name="one.year">1 Y</string>
+    <string name="six.months">6 M</string>
+    <string name="five.years">5 Y</string>
+    <string name="three.years">3 Y</string>
+    <string name="business.rule.total">Jumlah (Rp)</string>
+    <string name="fatca.universal">Apakah kamu memiliki hubungan finansial dengan Negara Lain?</string>
+    <string name="kyc.investment_experience.other">Pengalaman Berinvestasi Lainnya<font color="red">*</font></string>
+    <string name="fatca.definition">FATCA dan CRS adalah suatu Undang-Undang baru yang dikeluarkan untuk membantu mengatasi penggelapan pajak (Tax Evasion)</string>
+    <string name="risk_profile.send">Kirim data</string>
+    <string name="risk_profile.save">Simpan Profil Risiko</string>
+    <string name="user_profile.kyc.exp_id.lifetime">Seumur hidup</string>
+    <string name="user_profile.kyc.cust_account">Rekening bank Nasabah</string>
+    <string name="user_profile.fatca.private_info">Informasi Pribadi</string>
+    <string name="user_profile.kyc.private_info.option1">Gunakan Nomor Handphone</string>
+    <string name="user_profile.kyc.private_info.option2">Alamat surat-menyurat sama dengan alamat KTP</string>
+    <string name="user_profile.kyc.profile_investment">Profil Investasi</string>
+    <string name="user_profile.fatca.addr_postal">Alamat surat-menyurat</string>
+    <string name="user_profile.fatca.addr_resident">Alamat sesuai KTP</string>
+    <string name="uploadlimit">Gagal untuk mengunggah, file lebih dari 2 MB</string>
+    <string name="risk_profile.confirmation.no">Lihat Selengkapnya</string>
+    <string name="risk_profile.confirmation.ok">Setuju</string>
+    <string name="risk_profile.confirmationend.no">Periksa Kembali</string>
+    <string name="risk_profile.confirmationend.ok">Konfirmasi</string>
+    <string name="menu.FAQ">FAQ</string>
+    <string name="privacy.policy.desc1_2">2. Hak dan Tanggung Jawab pengguna terkait penyampai data pribadi pengguna; dan</string>
+    <string name="privacy.policy.desc1_3">3. Opsi yang dapat dilakukan oleh pengguna terkait perubahan, penghapusan data pribadi pengguna.</string>
+    <string name="privacy.policy.desc2_2">2. Informasi yang dihasilkan pengguna atas dasar penggunaan aplikasi oleh pengguna. Informasi ini dapat terdiri dari alamat IP, komposisi dan nilai portofolio dan informasi teknikal terkait dengan perangkat mobile pengguna. NSI akan menggunakan data ini untuk memastikan aplikasi dapat berjalan dengan baik.</string>
+    <string name="privacy.policy.desc3_2">NSI juga bertanggung jawab untuk menghubungi pengguna secara periodik untuk memastikan bahwa KYC sudah akurat dan ter-update. Hal ini merupakan salah satu bagian dalam kegiatan operasional NSI. Pengguna diharapkan untuk dapat memberikan informasi yang benar dan akurat dan melakukan pengubahan data yang diperlukan.</string>
+    <string name="privacy.policy.desc3_3">Pengguna diharapkan untuk dapat selalu melakukan pengubahan data yang diperlukan secara sukarela melalui portal Finvest</string>
+    <string name="privacy.policy.desc3_4">NSI akan mengasumsikan pengguna yang memilih untuk menutup akun Finvest, bahwa pengguna tersebut tidak ingin menggunakan layanan Finvest lagi. Namun, sesuai dengan peraturan yang ada, NSI harus menyimpan informasi tersebut selama 5 tahun. Untuk kenyamanan pengguna, 5 tahun akan dimulai sejak pengguna memilih untuk mengakhiri penggunaan Finvest.</string>
+    <string name="privacy.policy.desc3_5">Penutupan rekening Finvest hanya dapat dilakukan jika pengguna sudah melakukan penjualan atas semua Reksa Dana dan Portofolio yang dimiliki.</string>
+    <string name="privacy.policy.desc4_2">Dengan menyetujui syarat penggunaan Finvest, pengguna menyetujui pemindahan, pemberitahuan data pengguna tersebut kepada pihak yang terkait lainnya, dalam hal penggunaan datanya untuk disimpan dan diolah untuk pembuatan survei kepuasan nasabah, pengawasan Anti Money Laundering (AML), pelaporan, statistik, kebutuhan pengelolaan risiko dan laporan apapun yang dibutuhkan oleh regulator.</string>
+    <string name="privacy.policy.desc_2">Finvest adalah layanan yang ditawarkan oleh PT Nusantara Sejahtera Investama (\"NSI\") yang memungkinkan pengguna untuk melakukan investasi Reksa Dana secara online. Pengguna akan diminta informasi pribadi, yang nantinya dapat digunakan oleh NSI dalam kegiatan operasional sehari-hari dan dapat dikirimkan kepada pihak yang berkepentingan.</string>
+    <string name="kyc.scan.id">Scan/Foto KTP<font color="red">*</font></string>
+    <string name="kyc.scan.ttd">Scan/Foto Tanda Tangan<font color="red">*</font></string>
+    <string name="register.agreement">Saya telah membaca dan menyetujui syarat dan ketentuan Finvest.</string>
+    <string name="user_profile.risk_profile.result"><b>PROFIL RISIKO&#032;:</b></string>
+    <string name="redeemtion_failed.tutup">Tutup</string>
+    <string name="redeemtion_failed.confirmation">Investasi ini sedang dalam proses penjualan kembali</string>
+    <string name="redeemtion_failed.title">Informasi</string>
+    <string name="redeemtion_desc1">Anda mau menjual penuh investasi ini?</string>
+    <string name="redeemtion_desc2">Pilih Ya untuk menjual keseluruhan dari investasi ini, dan pilih Tidak untuk menjual sebagian dari investasi ini</string>
+    <string name="forgot_pwd.reset_hint">Silahkan masukkan kode reset yang dikirimkan ke email anda lalu tentukan password baru yang anda inginkan</string>
+    <string name="send_code_reset">Kirim Kode Reset</string>
+    <string name="Zone.month">1 bln</string>
+    <string name="kyc_penging_error">Akun Anda masih dalam proses verifikasi dari petugas. Mohon hubungi customer service untuk informasi lebih lanjut.</string>
+    <string name="signup.agree">Saya telah membaca dan menyetujui</string>
+    <string name="detail_product.agreement">Saya telah Memahami dan  Menyetujui isi dari Prospektus  dan Fund Fact Sheet produk ini</string>
+    <string name="risk_profile.conservative">Profil Risiko yang disarankan untuk anda adalah CONSERVATIVE.</string>
+    <string name="summary.expired_time_2">Transaksi akan dibatalkan jika sampai dengan waktu tersebut anda belum melakukan pembayaran</string>
+    <string name="summary.expired_time_3">Setelah melakukan pembayaran, upload bukti pembayaran melalui beranda Finvest atau kirimkan ke support@invisee.com.</string>
+    <string name="summary.expired_time_4">Mohon diingat bahwa pihak FINVEST berhak untuk membatalkan transaksi yang Anda lakukan jika pembayaran dilakukan bukan dari rekening milik anda</string>
+    <string name="summary.note">Catatan :</string>
+    <string name="summary.customer.statement">Pernyataan Nasabah</string>
+    <string name="summary.customer.statement_2">Dengan ini, saya menyatakan bahwa:</string>
+    <string name="summary.customer.statement_3">Saya telah menerima, membaca, dan menyetujui persyaratan dalam prospektus</string>
+    <string name="summary.customer.statement_4">Saya memahami bahwa aplikasi ini dapat disetujui maupun ditolak oleh PT Nusantara Sejahtera Investama.</string>
+    <string name="summary.customer.statement_5">Saya memahami bahwa unit akan dibeli berdasarkan Nilai Aktiva Bersih yang akan ditentukan setelah dana diterima.</string>
+    <string name="signup.rac">Kode Referral (Opsional)</string>
+    <string name="signup.rule">syarat dan ketentuan</string>
+    <string name="summary.please_transfer_va_to">Agar pesanan ini bisa segera di proses, anda bisa melakukan pembayaran ke :</string>
+    <string name="produkTitle">Produk</string>
+    <string name="pendingOrderTitle">Pesanan Anda</string>
+    <string name="portofolioTitle">Portofolio</string>
+    <string name="riskProfileTitle">Profil Risiko</string>
+    <string name="reminderTitle">Pengingat</string>
+    <string name="addReminderTitle">Tambah Pengingat</string>
+    <string name="transactionTitle">Transaksi</string>
+    <string name="back">Kembali</string>
+    <string name="pending.order.empty">Saat ini anda tidak memiliki pesanan yang belum selesai diproses</string>
+    <string name="reminder.reminder.empty">Anda belum memiliki pengingat</string>
+    <string name="android.version">Silahkan update aplikasi anda terlebih dahulu untuk melanjutkan</string>
+    <string name="min_persen">Min%</string>
+    <string name="update">Update</string>
+    <string name="topup">Top Up</string>
+    <string name="max_persen">Max%</string>
+    <string name="kyc_update_data">Simpan perubahan yang anda lakukan?</string>
+    <string name="riskprofile_simpan_data">Anda tidak melakukan perubahan</string>
+    <string name="app_name_dev">Finvest Dev</string>
+    <string name="btn_dialog_tidak">Tidak</string>
+    <string name="btn_dialog_ya">Ya</string>
+    <string name="menu.promo">Promo</string>
+    <string name="error_api">Terjadi kesalahan pada sistem</string>
+    <string name="catalogue.dialog.risk.profile">Produk ini mempunyai profil risiko yang lebih tinggi dari profil risiko anda, apakah anda ingin melanjutkan?</string>
+    <string name="referral.link">Ayo daftar sebagai nasabah FINVEST dan mulai berinvestasi. Klik %1$s atau masukkan %2$s sebagai kode referral pada saat pendaftaran akun baru di FINVEST</string>
+</resources>

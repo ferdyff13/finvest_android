@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/nav_header"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:paddingBottom="@dimen/space_quadruple"
+    android:paddingLeft="@dimen/space_double"
+    android:paddingRight="@dimen/space_double"
+    android:paddingTop="@dimen/space_quadruple">
+
+    <ImageButton
+        android:id="@+id/ibClose"
+        style="@style/PrimaryFlatButtonStyle"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:padding="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_clear_white_24dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ibClose"
+        android:layout_marginLeft="@dimen/space_double"
+        android:layout_marginTop="@dimen/space"
+        android:layout_toRightOf="@+id/ivPhotoProfile"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey_600"
+            android:textSize="@dimen/font_big"
+            android:textStyle="bold"
+            tools:text="Fajar Faturrochman" />
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey_600"
+            android:textSize="@dimen/font_reg"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            tools:text="fajar.faturrochman221021@gmail.com" />
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/space_half"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txvStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey_600"
+                android:textSize="@dimen/font_reg"
+                tools:text="Status :" />
+
+            <TextView
+                android:layout_marginStart="@dimen/_2sdp"
+                android:id="@+id/txvCustomerStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey_600"
+                android:textSize="@dimen/font_reg"
+                tools:text="" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space">
+
+<!--            <TextView
+                android:id="@+id/tvPercent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/space"
+                android:text="0%"
+                android:textColor="@color/grey_600"
+                android:textSize="@dimen/font_reg" />-->
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@+id/layout_completeness"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_4sdp">
+
+                <!--
+                    ProgressBar
+                        Visual indicator of progress in some operation. Displays a bar to the user
+                        representing how far the operation has progressed; the application can change
+                        the amount of progress (modifying the length of the bar) as it moves forward.
+                -->
+                <ProgressBar
+                    android:id="@+id/pb_completeness"
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="wrap_content"
+                    android:indeterminate="false"
+                    style="@android:style/Widget.Holo.Light.ProgressBar.Horizontal"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_completeness"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:text="0"
+                    android:textColor="@color/grey_600"/>
+            </LinearLayout>
+
+
+<!--            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tvPercent"
+                android:background="@drawable/progress_bar_target_bar" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/space"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/space_quadruple"
+                android:layout_toLeftOf="@+id/tvPercent"
+                android:background="@drawable/progress_bar_target_progress" />-->
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menu.statistic"
+            android:textColor="@color/grey_600"
+            android:textSize="@dimen/font_small" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivPhotoProfile"
+        android:layout_width="72dp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_height="72dp"
+        android:background="@drawable/circle_background"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:layout_below="@+id/ibClose"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

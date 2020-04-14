@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.invisee.finvest">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <supports-screens
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:anyDensity="true"
+        />
+    <application
+        android:largeHeap="true"
+        android:name=".InviseeApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_finvest"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.activities.SplashScreenActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SENDTO" />
+                <data android:scheme="mailto" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!--<meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_id"/>-->
+
+        <activity
+            android:name=".ui.activities.SignInActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activities.SignUpActivity"
+            android:noHistory="false"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.ActivationActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateHidden|adjustPan"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activities.UserProfileActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activities.MainActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activities.NewsActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activities.PortfolioActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activities.DetailPromoActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activities.PortfolioConfirmationActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activities.RedemptionActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activities.CartActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activities.FaqActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activities.RiskProfileActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activities.FatcaActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activities.ForgotPasswordActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activities.DetailPendingOrderActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activities.PromoActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activities.AboutActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activities.YouTubePlayerActivity"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".ui.activities.ChangePasswordActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateHidden"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait"/>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="7533e9e98ffd554ea5069ea988ca919d51857290" />
+
+        <activity
+            android:name=".ui.activities.CheckoutActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activities.CatalogueActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activities.ReminderActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activities.DashboardActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activities.WalletActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activities.KycActivityNew"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activities.ListOfCatalogueActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activities.PendingOrderActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activities.ListPortfolioActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activities.ReminderListActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activities.TransactiontActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activities.TopUpActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activities.TopUpSummaryActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activities.ListTopUpActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".ui.activities.DetailWaitingTopUpActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".ui.activities.TopUpMandiriActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".ui.activities.TopUpBCAActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".ui.activities.TopUpFinPayActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".ui.activities.TopUpSummaryFinPayActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".ui.activities.DetailWaitingTopUpFinPayActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".ui.activities.TopUpPermataActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".ui.activities.ReferralActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+
+    </application>
+
+</manifest>

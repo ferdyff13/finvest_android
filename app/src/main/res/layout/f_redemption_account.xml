@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="@color/grey_100"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/securityPin">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:paddingTop="@dimen/space_double"
+                    android:paddingBottom="@dimen/space"
+                    android:paddingRight="@dimen/space_double"
+                    android:paddingLeft="@dimen/space_double"
+                    android:id="@+id/txtinfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/redemption.transfer_to"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/space_double">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rekening Anda"
+                        android:textColor="@color/red_600"
+                        android:textSize="@dimen/font_medium"/>
+
+                    <LinearLayout
+                        android:layout_marginTop="@dimen/space"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Nomor Rekening"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Nama Pemilik"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Bank"/>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginLeft="@dimen/space_half"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=":"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=":"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=":"/>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginLeft="@dimen/space"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/tvAccountNumber"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="000000000001"/>
+
+
+                            <TextView
+                                android:id="@+id/tvAccountName"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="000000000001"/>
+
+
+                            <TextView
+                                android:id="@+id/tvBranch"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="000000000001"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_marginTop="@dimen/space"
+            android:layout_marginBottom="@dimen/space_double"
+            android:layout_marginLeft="@dimen/space"
+            android:layout_marginRight="@dimen/space"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pastikan data nomor rekening tersebut sudah benar" />
+
+            <Button
+                style="@style/GenericRaisedButtonStyle"
+                android:layout_marginRight="@dimen/space"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ubah"
+                android:textColor="@color/white"
+                android:background="@color/red_600"
+                android:id="@+id/bChangeBank" />
+
+
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:id="@+id/securityPin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/txvSecurityPin"
+            android:layout_margin="@dimen/space"
+            android:gravity="center"
+            android:text="@string/redemption.security_pin"
+            android:textColor="@color/red_600"
+            android:textSize="@dimen/font_medium"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/txvSecurityPin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/space"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="@string/redemption.please_input"
+            android:textSize="@dimen/font_medium" />
+
+        <LinearLayout
+            android:id="@+id/llGeneratePIN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bProceed"
+            android:layout_marginBottom="@dimen/space"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Klik" />
+
+            <TextView
+                android:id="@+id/bSendPin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:padding="@dimen/space"
+                android:text="disini"
+                android:textColor="@color/red_600"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="untuk ganti security pin" />
+
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/etSecurityPin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/llGeneratePIN"
+            android:layout_marginLeft="@dimen/space_xtra"
+            android:layout_marginRight="@dimen/space_xtra"
+            android:layout_marginTop="@dimen/space"
+            android:background="@drawable/rounded_edittext"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:hint="@string/redemption.pin"
+            android:inputType="numberPassword"
+            android:maxLength="2"
+            android:textColorHint="@color/hintColor"
+            android:textSize="@dimen/font_big" />
+
+        <Button
+            android:id="@+id/bProceed"
+            style="@style/GenericRaisedButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/space_double"
+            android:text="@string/redemption.proceed"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_medium" />
+
+    </LinearLayout>
+
+
+</ScrollView>

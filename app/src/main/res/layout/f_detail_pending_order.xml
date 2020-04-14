@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/grey_300"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/space_triple"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:padding="@dimen/space"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/font_medium"
+                        android:textColor="@color/black"
+                        android:text="Nomor Order"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="@dimen/space"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_gravity="right"
+                        android:textSize="@dimen/font_medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:id="@+id/txvOrderNumber" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnPaymentType"
+                android:layout_marginTop="@dimen/space_quadruple"
+                android:background="@drawable/border_grey"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:padding="@dimen/space"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/font_medium"
+                        android:textColor="@color/black"
+                        android:text="Tipe Pembayaran"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="@dimen/space"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/txvPaymentType"
+                        android:layout_gravity="right"
+                        android:textSize="@dimen/font_medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="-"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:padding="@dimen/space"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/font_medium"
+                        android:textColor="@color/black"
+                        android:text="Tipe Transaksi"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="@dimen/space"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/txvTransactionType"
+                        android:layout_gravity="right"
+                        android:textSize="@dimen/font_medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:padding="@dimen/space"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/font_medium"
+                        android:textColor="@color/black"
+                        android:text="Tanggal Transaksi"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="@dimen/space"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/txvTransactionDate"
+                        android:layout_gravity="right"
+                        android:textSize="@dimen/font_medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@drawable/border_grey"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:padding="@dimen/space"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/font_medium"
+                        android:textColor="@color/black"
+                        android:text="Waktu Transaksi"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="@dimen/space"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/txvTransactionTime"
+                        android:layout_gravity="right"
+                        android:textSize="@dimen/font_medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:padding="@dimen/space"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/font_medium"
+                        android:textColor="@color/black"
+                        android:text="Status Transaksi"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="@dimen/space"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/txvTransactionStatus"
+                        android:layout_gravity="right"
+                        android:textSize="@dimen/font_medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@drawable/border_grey"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:padding="@dimen/space"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/font_medium"
+                        android:textColor="@color/black"
+                        android:text="Tanggal NAB"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="@dimen/space"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/txvNavDate"
+                        android:layout_gravity="right"
+                        android:textSize="@dimen/font_medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:id="@+id/lnItemOrder"
+                android:layout_marginTop="@dimen/space_quadruple"
+                android:layout_marginBottom="@dimen/space"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_grey"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/space">
+
+                    <LinearLayout
+                        android:layout_width="@dimen/_200sdp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/txvPackageName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Reksa Dana Insight Haji"
+                            android:textSize="@dimen/font_big"
+                            android:textColor="@color/red_600"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/txvTransactionTypeRight"
+                            android:textColor="@color/black"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textSize="@dimen/font_tiny"
+                            android:gravity="right"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/space">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="@dimen/_200sdp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:background="@color/red_600"
+                            android:layout_marginEnd="@dimen/space"/>
+
+                        <TextView
+                            android:id="@+id/txvProductName"
+                            android:textSize="@dimen/font_medium"
+                            android:textColor="@color/black"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Reksa Dana Insight Haji Syariah" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/txvComposition"
+                            android:layout_gravity="right"
+                            android:textSize="@dimen/font_medium"
+                            android:textColor="@color/black"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="100%" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:background="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <RelativeLayout
+                        android:layout_gravity="center"
+                        android:background="@drawable/border_grey"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <LinearLayout
+                            android:paddingStart="@dimen/space"
+                            android:gravity="left"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentStart="true">
+
+                            <TextView
+                                android:layout_marginTop="11dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                android:text="Nomor Investasi"
+                                android:textColor="@color/grey_500"
+                                android:textStyle="italic"/>
+
+                            <TextView
+                                android:layout_marginTop="9dp"
+                                android:textSize="@dimen/font_medium"
+                                android:textColor="@color/black"
+                                android:id="@+id/txvInvestmentNumberDetail"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""/>
+
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:paddingEnd="@dimen/space"
+                        android:background="@drawable/border_grey"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:id="@+id/btn_viseepay"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:gravity="right"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_marginTop="11dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                android:textColor="@color/grey_500"
+                                android:text="Biaya"
+                                android:textStyle="italic"/>
+
+                            <TextView
+                                android:layout_marginTop="9dp"
+                                android:textSize="@dimen/font_medium"
+                                android:textColor="@color/black"
+                                android:id="@+id/txvFee"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""/>
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:background="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <RelativeLayout
+                        android:layout_gravity="center"
+                        android:background="@drawable/border_grey"
+                        android:id="@+id/btn_investation_detail"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <LinearLayout
+                            android:paddingStart="@dimen/space"
+                            android:gravity="left"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentStart="true">
+
+                            <TextView
+                                android:layout_marginTop="11dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                android:textColor="@color/grey_500"
+                                android:text="Jumlah"
+                                android:textStyle="italic"/>
+
+                            <TextView
+                                android:layout_marginTop="9dp"
+                                android:textSize="@dimen/font_medium"
+                                android:textColor="@color/black"
+                                android:id="@+id/txvTotal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""/>
+
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:paddingEnd="@dimen/space"
+                        android:background="@drawable/border_grey"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:gravity="right"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_marginTop="11dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                android:textColor="@color/grey_500"
+                                android:text="Total"
+                                android:textStyle="italic"/>
+
+                            <TextView
+                                android:id="@+id/txvNetTotal"
+                                android:layout_marginTop="9dp"
+                                android:textSize="@dimen/font_medium"
+                                android:textColor="@color/black"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""/>
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lnImageBox"
+                    android:padding="@dimen/space"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imgOrder"
+                        android:src="@drawable/upload"
+                        android:layout_gravity="right"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:gravity="right"/>
+
+                    <LinearLayout
+                        android:layout_gravity="bottom"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/txvFileName"
+                            android:layout_width="wrap_content"
+                            android:textStyle="italic"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/font_medium"
+                            android:layout_marginStart="@dimen/space_double"
+                            android:layout_marginBottom="@dimen/_4sdp"
+                            android:textColor="@color/grey_500"
+                            android:text="fileName.jpg"
+                            android:layout_gravity="bottom"/>
+
+                        <TextView
+                            android:id="@+id/txvConfirmationPayment"
+                            android:textColor="@color/grey_500"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/font_medium"
+                            android:layout_marginStart="@dimen/space_double"
+                            android:layout_marginBottom="@dimen/_4sdp"
+                            android:textStyle="italic"
+                            android:text="Konfirmasi Pembayaran"
+                            android:layout_alignParentBottom="true"/>
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

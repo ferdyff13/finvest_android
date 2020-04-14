@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red_600"
+    android:padding="@dimen/space">
+
+    <LinearLayout
+        android:id="@+id/lnrActions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/btn1month"
+            style="@style/GenericRaisedButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="@dimen/_2sdp"
+            android:layout_marginLeft="1sp"
+            android:layout_weight="1"
+            android:background="@drawable/button_primary_dark"
+            android:padding="@dimen/space"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textOff="@string/one.month"
+            android:textOn="@string/one.month"
+            android:textSize="@dimen/_10sdp" />
+
+
+        <ToggleButton
+            android:id="@+id/btn6months"
+            style="@style/GenericRaisedButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="@dimen/_2sdp"
+            android:layout_marginLeft="@dimen/space"
+            android:layout_weight="1"
+            android:background="@drawable/button_primary_dark"
+            android:padding="@dimen/space"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textOff="@string/six.months"
+            android:textOn="@string/six.months"
+            android:textSize="@dimen/_10sdp"/>
+
+        <ToggleButton
+            android:id="@+id/btn1year"
+            style="@style/GenericRaisedButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="@dimen/_2sdp"
+            android:layout_marginLeft="@dimen/space"
+            android:layout_weight="1"
+            android:background="@drawable/button_primary_dark"
+            android:padding="@dimen/space"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textOff="@string/one.year"
+            android:textOn="@string/one.year"
+            android:textSize="@dimen/_10sdp"/>
+
+        <ToggleButton
+            android:id="@+id/btn3years"
+            style="@style/GenericRaisedButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="@dimen/_2sdp"
+            android:layout_marginLeft="@dimen/space"
+            android:layout_weight="1"
+            android:background="@drawable/button_primary_dark"
+            android:padding="@dimen/space"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textOff="@string/three.years"
+            android:textOn="@string/three.years"
+            android:textSize="@dimen/_10sdp"/>
+
+        <ToggleButton
+            android:id="@+id/btn5years"
+            style="@style/GenericRaisedButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/space"
+            android:layout_weight="1"
+            android:background="@drawable/button_primary_dark"
+            android:padding="@dimen/space"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textOff="@string/five.years"
+            android:textOn="@string/five.years"
+            android:textSize="@dimen/_10sdp"/>
+
+    </LinearLayout>
+
+<!--    <LinearLayout
+        android:id="@+id/percentage"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_below="@+id/lnrActions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+&lt;!&ndash;        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="%"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="#d8d8d8"/>&ndash;&gt;
+    </LinearLayout>-->
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/white"
+        android:indeterminateTintMode="src_in"
+        android:visibility="visible" />
+
+
+<!--    <lecho.lib.hellocharts.view.LineChartView
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:paddingLeft="@dimen/space"
+        android:paddingRight="@dimen/space_double"
+        android:paddingBottom="@dimen/_28sdp"
+        android:layout_below="@+id/percentage"
+        android:layout_alignParentLeft="true" />-->
+
+    <LinearLayout
+        android:id="@+id/lnValue"
+        android:paddingTop="@dimen/space"
+        android:orientation="vertical"
+        android:layout_below="@+id/lnrActions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="@dimen/font_small"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/value"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="@dimen/font_small"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/valueDate"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:layout_below="@+id/lnValue"
+        android:id="@+id/chart1"
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
+
+    <LinearLayout
+        android:id="@+id/lnIndication"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/space">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Indikasi Imbal Hasil per Tahun"/>
+
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="7.5 %"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+

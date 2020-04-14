@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivPhoto"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="@dimen/space_double"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/tvtTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/space_double"
+        android:layout_marginTop="@dimen/space_double"
+        android:layout_toRightOf="@+id/ivPhoto" />
+
+    <TextView
+        android:id="@+id/tvNewsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvtTime"
+        android:layout_marginRight="@dimen/space_double"
+        android:layout_marginTop="@dimen/space"
+        android:layout_toRightOf="@+id/ivPhoto"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvNewsContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNewsTitle"
+        android:layout_marginBottom="@dimen/space_double"
+        android:layout_marginRight="@dimen/space_double"
+        android:layout_marginTop="@dimen/space"
+        android:layout_toRightOf="@+id/ivPhoto"
+        android:ellipsize="end"
+        android:maxLines="5" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/grey_500" />
+
+
+</RelativeLayout>

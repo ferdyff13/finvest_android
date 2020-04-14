@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp">
+
+        <include layout="@layout/toolbar_title_center" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <!-- !-->
+
+    <LinearLayout
+        android:id="@+id/layout_completeness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appBar"
+        android:background="#eff1f7"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <!--
+            ProgressBar
+                Visual indicator of progress in some operation. Displays a bar to the user
+                representing how far the operation has progressed; the application can change
+                the amount of progress (modifying the length of the bar) as it moves forward.
+        -->
+        <ProgressBar
+            android:id="@+id/pb_completeness"
+            style="@android:style/Widget.Holo.Light.ProgressBar.Horizontal"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:indeterminate="false" />
+
+        <TextView
+            android:id="@+id/tv_completeness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/_10sdp"
+            android:text="0" />
+    </LinearLayout>
+
+    <com.invisee.finvest.util.ui.NonSwipeableViewPager
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/linearLayoutButtom"
+    android:layout_below="@+id/layout_completeness"/>
+
+<!--
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearLayoutButtom"
+        android:layout_below="@+id/layout_completeness"/>
+-->
+
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearLayoutButtom"
+        android:layout_below="@+id/layout_completeness"
+        android:orientation="vertical">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="@dimen/space_double"
+            android:src="@drawable/ic_keyboard_arrow_right_white_24dp"
+            android:tint="@color/white"
+            android:visibility="gone"
+            app:backgroundTint="@color/red_600"
+            app:layout_anchor="@id/pager"
+            app:layout_anchorGravity="bottom|right|end" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutButtom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/red_600">
+
+        <RelativeLayout
+            android:id="@+id/rl_leftside"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:visibility="invisible">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/ic_keyboard_arrow_left_white_24dp"
+                android:tint="@color/white" />
+
+            <LinearLayout
+                android:id="@+id/iv_left"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kembali"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/font_small" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_viseepay"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/iv_right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_profile.fatca.addr_resident"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/font_small" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+                android:tint="@color/white" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/windowBackground"
+        android:orientation="vertical"
+        android:padding="@dimen/space_triple">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/summary.order_number" />
+
+                <TextView
+                    android:id="@+id/txvOrderNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space"
+                    android:layout_marginStart="@dimen/space"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/red_900"
+                    tools:text="8789931603180002" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_double"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="@string/redemption.investment"
+                        android:textColor="@color/red_900"
+                        android:textSize="@dimen/font_small" />
+
+                    <TextView
+                        android:id="@+id/txvInvestment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="I1602000004" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/space_half"
+                        android:text="@string/redemption.package_name"
+                        android:textColor="@color/red_900"
+                        android:textSize="@dimen/font_small" />
+
+                    <TextView
+                        android:id="@+id/txvPackageName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="BARIFA BRIGHT FUTURE" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/space_half"
+                        android:text="@string/redemption.market_value"
+                        android:textColor="@color/red_900"
+                        android:textSize="@dimen/font_small" />
+
+                    <TextView
+                        android:id="@+id/txvMarketValue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="571.372,97" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/space_half"
+                        android:text="@string/redemption.fee_percent"
+                        android:textColor="@color/red_900"
+                        android:textSize="@dimen/font_small" />
+
+                    <TextView
+                        android:id="@+id/txvFee"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="571.372,97" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/space_double"
+                android:background="@color/grey_300" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/space_double"
+                android:text="@string/redemption.redeem_amount_indicative" />
+
+            <TextView
+                android:id="@+id/txvRedeemAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/space"
+                android:layout_marginStart="@dimen/space"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/red_900"
+                tools:text="Rp 32.000.0000.000,00" />
+
+            <LinearLayout
+                android:id="@+id/llPartialPercentage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/space_double"
+                    android:gravity="center_horizontal"
+                    android:text="Penjualan Sebagian" />
+
+                <TextView
+                    android:id="@+id/tvPartialPercenetage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/red_900"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/space"
+                    android:gravity="center_horizontal"
+                    android:textSize="@dimen/font_reg"
+                    android:textStyle="bold"
+                    android:text="24%" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/space_double"
+                android:gravity="center_horizontal"
+                android:text="@string/redemption.transfer_to" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/space_double"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="@string/summary.account_number" />
+
+                <TextView
+                    android:id="@+id/txvAccountNumber"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space"
+                    android:layout_marginStart="@dimen/space"
+                    android:layout_weight="3"
+                    android:textColor="@color/red_900"
+                    tools:text=": 8789931603180002" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="@string/summary.account_name" />
+
+                <TextView
+                    android:id="@+id/txvAccountName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space"
+                    android:layout_marginStart="@dimen/space"
+                    android:layout_weight="3"
+                    android:textColor="@color/red_900"
+                    tools:text=": Glen Rynaldi Hermanus" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="@string/summary.bank_name" />
+
+                <TextView
+                    android:id="@+id/txvBankName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space"
+                    android:layout_marginStart="@dimen/space"
+                    android:layout_weight="3"
+                    android:textColor="@color/red_900"
+                    tools:text=": Bank Permata" />
+
+            </LinearLayout>
+
+            <!--            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="@string/summary.branch" />
+
+                <TextView
+                    android:id="@+id/txvBranch"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space"
+                    android:layout_marginStart="@dimen/space"
+                    android:layout_weight="3"
+                    android:textColor="@color/colorPrimary"
+                    tools:text=": Bank Permata Jakarta Pusat" />
+
+            </LinearLayout>-->
+
+
+            <LinearLayout
+                android:id="@+id/bOk"
+                style="@style/GenericRaisedButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/space_double"
+                android:minWidth="120dp"
+                android:orientation="vertical"
+                android:padding="@dimen/space">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_half"
+                    android:gravity="center_vertical"
+                    android:text="@string/ok"
+                    android:textAllCaps="true"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_medium"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/space_double"
+                android:background="@color/grey_300" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnrData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txvExpirationTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/space_double"
+            android:gravity="center_horizontal"
+            android:text="@string/redemption.expired_time" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/space"
+            android:layout_marginStart="@dimen/space"
+            android:layout_marginTop="@dimen/space_double"
+            android:text="@string/redemption.disclaimer"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/red_900" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space"
+                android:text="1." />
+
+            <TextView
+                android:id="@+id/txvDisclaimer1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginStart="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:text="@string/redemption.disclaimer_1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space"
+                android:text="2." />
+
+            <TextView
+                android:id="@+id/txvDisclaimer2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginStart="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:text="@string/redemption.disclaimer_2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space"
+                android:text="3." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginStart="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:text="@string/redemption.disclaimer_3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space"
+                android:text="4." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginStart="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:text="@string/redemption.disclaimer_4" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+

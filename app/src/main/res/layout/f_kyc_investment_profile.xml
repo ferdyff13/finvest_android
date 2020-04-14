@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/sl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/space_double"
+            android:paddingLeft="@dimen/space"
+            android:paddingRight="@dimen/space"
+            android:paddingTop="@dimen/space_double">
+
+            <!--SOURCE OF INCOME-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_double"
+                android:text="@string/kyc.source_of_income"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/font_small" />
+
+            <Spinner
+                android:id="@+id/sSourceOfIncome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:entries="@array/dummy_array"
+                android:focusable="false"
+                android:spinnerMode="dialog" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/grey_700" />
+
+            <!--View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:background="@color/mandatoryFieldColor" /-->
+
+            <!--TOTAL OF INCOME-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_double"
+                android:text="@string/kyc.total_of_income"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/font_small" />
+
+            <Spinner
+                android:id="@+id/sTotalOfIncome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:entries="@array/dummy_array"
+                android:focusable="false"
+                android:spinnerMode="dialog" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/grey_700" />
+
+            <!--View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:background="@color/mandatoryFieldColor" /-->
+
+
+            <!--TOTAL ASSET-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_double"
+                android:text="@string/kyc.total_asset"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/font_small" />
+
+            <Spinner
+                android:id="@+id/sTotalAsset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:entries="@array/dummy_array"
+                android:focusable="false"
+                android:spinnerMode="dialog" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/grey_700" />
+
+            <!--View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:background="@color/mandatoryFieldColor" /-->
+
+
+            <!--INVESTMENT PURPOSE-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_double"
+                android:text="@string/kyc.investment_purpose"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/font_small" />
+
+            <Spinner
+                android:id="@+id/sInvestmentPurpose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:entries="@array/dummy_array"
+                android:focusable="false"
+                android:spinnerMode="dialog" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/grey_700" />
+
+            <!--View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:background="@color/mandatoryFieldColor" /-->
+
+            <!--INVESTMENT EXPERIENCE-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_double"
+                android:text="@string/kyc.investment_experience"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/font_small" />
+
+            <Spinner
+                android:id="@+id/sInvestmentExperience"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:entries="@array/dummy_array"
+                android:focusable="false"
+                android:spinnerMode="dialog" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/grey_700" />
+
+            <!--View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:background="@color/mandatoryFieldColor" /-->
+
+            <!-- INVESTMENT EXPERIENCE OTHER -->
+            <LinearLayout
+                android:id="@+id/l_other_investment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_double"
+                android:text="@string/kyc.investment_experience.other"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/font_small"/>
+
+            <EditText
+                android:id="@+id/etOtherInvestmentExp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="50"
+                android:maxLines="1"
+                android:textSize="@dimen/_12sdp"
+                android:inputType="text"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLM NOPQRSTUVWXYZ"
+                android:layout_marginBottom="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"/>
+
+            <!--View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/grey_700" /-->
+
+            <!--View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:background="@color/mandatoryFieldColor" /-->
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/edtHidden"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="hiddenfordata"
+                android:singleLine="true"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_12sdp"
+                android:visibility="gone" />
+
+
+
+            <!--NEEDED SPACE FOR FAB AREA-->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/fab_normal_size_plus_margin_double" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!--    <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabPrev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:layout_margin="@dimen/space_double"
+            android:src="@drawable/ic_keyboard_arrow_left_white_24dp"
+            android:tint="@color/white"
+            app:backgroundTint="@color/colorPrimary"
+            app:fabSize="mini"
+            app:layout_anchor="@id/sl"
+            app:layout_anchorGravity="bottom|left|end" />-->
+
+</android.support.design.widget.CoordinatorLayout>

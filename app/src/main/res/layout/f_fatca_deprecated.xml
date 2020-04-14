@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/sl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/space_double"
+            android:paddingLeft="@dimen/space"
+            android:paddingRight="@dimen/space"
+            android:paddingTop="@dimen/space_double">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:text="@string/fatca.citizen"
+                android:textColor="@color/hintColor"
+                android:textSize="@dimen/font_small" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:entries="@array/dummy_array"
+                android:focusable="false"
+                android:spinnerMode="dialog" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/grey_700" />
+
+            <!---->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_triple"
+                android:text="@string/fatca.resident"
+                android:textColor="@color/hintColor"
+                android:textSize="@dimen/font_small" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:entries="@array/dummy_array"
+                android:focusable="false"
+                android:spinnerMode="dialog" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/grey_700" />
+
+            <!---->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_triple"
+                android:text="@string/fatca.current_residence"
+                android:textColor="@color/hintColor"
+                android:textSize="@dimen/font_small" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:entries="@array/dummy_array"
+                android:focusable="false"
+                android:spinnerMode="dialog" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/grey_700" />
+
+            <!---->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_triple"
+                android:text="@string/fatca.current_mailing"
+                android:textColor="@color/hintColor"
+                android:textSize="@dimen/font_small" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:entries="@array/dummy_array"
+                android:focusable="false"
+                android:spinnerMode="dialog" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/grey_700" />
+
+            <!---->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_triple"
+                android:text="@string/fatca.telephone"
+                android:textColor="@color/hintColor"
+                android:textSize="@dimen/font_small" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:entries="@array/dummy_array"
+                android:focusable="false"
+                android:spinnerMode="dialog" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/grey_700" />
+
+            <!---->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_triple"
+                android:text="@string/fatca.transfer"
+                android:textColor="@color/hintColor"
+                android:textSize="@dimen/font_small" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:entries="@array/dummy_array"
+                android:focusable="false"
+                android:spinnerMode="dialog" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/grey_700" />
+
+            <!---->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_triple"
+                android:text="@string/fatca.signatory"
+                android:textColor="@color/hintColor"
+                android:textSize="@dimen/font_small" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:entries="@array/dummy_array"
+                android:focusable="false"
+                android:spinnerMode="dialog" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/grey_700" />
+
+            <!---->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_triple"
+                android:text="@string/fatca.holdmail"
+                android:textColor="@color/hintColor"
+                android:textSize="@dimen/font_small" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:entries="@array/dummy_array"
+                android:focusable="false"
+                android:spinnerMode="dialog" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/grey_700" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabPrev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_margin="@dimen/space_double"
+        android:src="@drawable/ic_keyboard_arrow_left_white_24dp"
+        android:tint="@color/white"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabSize="mini"
+        app:layout_anchor="@id/sl"
+        app:layout_anchorGravity="bottom|left|end" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="@dimen/space_double"
+        android:src="@drawable/ic_keyboard_arrow_right_white_24dp"
+        android:tint="@color/white"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabSize="normal"
+        app:layout_anchor="@id/sl"
+        app:layout_anchorGravity="bottom|right|end" />
+
+</android.support.design.widget.CoordinatorLayout>

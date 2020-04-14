@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/space_double"
+        android:paddingLeft="@dimen/space"
+        android:paddingRight="@dimen/space"
+        android:paddingTop="@dimen/space_double">
+
+        <!--PACKAGE NAME-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_half"
+            android:layout_marginStart="@dimen/space_half"
+            android:text="@string/portfolio.package_name"
+            android:textColor="@color/hintColor"
+            android:textSize="@dimen/font_small" />
+
+        <Spinner
+            android:id="@+id/sPackageName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space_half"
+            android:layout_marginTop="@dimen/space"
+            android:entries="@array/choose"
+            android:focusable="false"
+            android:spinnerMode="dialog" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/space_half"
+            android:layout_marginRight="@dimen/space_half"
+            android:background="@color/underlineFieldColor" />
+
+
+        <!--INVESTMENT ACCOUNT-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_half"
+            android:layout_marginStart="@dimen/space_half"
+            android:layout_marginTop="@dimen/space_double"
+            android:text="@string/portfolio.investment_number"
+            android:textColor="@color/hintColor"
+            android:textSize="@dimen/font_small" />
+
+        <Spinner
+            android:id="@+id/sInvestmentNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space_half"
+            android:layout_marginTop="@dimen/space"
+            android:entries="@array/choose"
+            android:focusable="false"
+            android:spinnerMode="dialog" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/space_half"
+            android:layout_marginRight="@dimen/space_half"
+            android:background="@color/underlineFieldColor" />
+
+
+        <!--REMINDER INTERVAL-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_half"
+            android:layout_marginStart="@dimen/space_half"
+            android:layout_marginTop="@dimen/space_double"
+            android:text="@string/reminder.interval"
+            android:textColor="@color/hintColor"
+            android:textSize="@dimen/font_small" />
+
+        <Spinner
+            android:id="@+id/sReminderInterval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space_half"
+            android:layout_marginTop="@dimen/space"
+            android:entries="@array/reminder_interval"
+            android:focusable="false"
+            android:spinnerMode="dialog" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/space_half"
+            android:layout_marginRight="@dimen/space_half"
+            android:background="@color/underlineFieldColor" />
+
+
+        <!--START DATE-->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_double">
+
+            <EditText
+                android:id="@+id/edtStartDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="@string/reminder.start_date"
+                android:inputType="datetime"
+                android:singleLine="true"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/font_medium" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <!--END DATE-->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_double">
+
+            <EditText
+                android:id="@+id/edtEndDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="@string/reminder.end_date"
+                android:inputType="datetime"
+                android:singleLine="true"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/font_medium" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <!--REMINDER TIME-->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_double">
+
+            <EditText
+                android:id="@+id/edtReminderTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="@string/reminder.time"
+                android:inputType="datetime"
+                android:singleLine="true"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/font_medium" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <!--TOP UP AMOUNT-->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_double">
+
+            <EditText
+                android:id="@+id/edtTopUpAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/reminder.top_up_amount"
+                android:inputType="number"
+                android:maxLength="8"
+                android:singleLine="true"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/font_medium" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_double"
+            android:layout_marginBottom="@dimen/space_double"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/cbAutoDebit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/payment.autodebet.viseepay" />
+
+            <TextView
+                android:id="@+id/tvAgree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_quadruple"
+                android:text="@string/payment.autodebet.detail"
+                android:textColor="@color/colorPrimary" />
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/bSave"
+            style="@style/GenericRaisedButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/space_xtra"
+            android:layout_marginRight="@dimen/space_xtra"
+            android:layout_marginTop="@dimen/space_double"
+            android:text="@string/save"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_medium" />
+
+    </LinearLayout>
+
+</ScrollView>

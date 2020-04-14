@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red_600"
+    android:paddingTop="@dimen/space"
+    android:paddingRight="@dimen/space"
+    android:paddingLeft="@dimen/space"
+    android:orientation="vertical">
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="@dimen/_34sdp"-->
+        <!--android:layout_marginTop="@dimen/space_double"-->
+        <!--android:textSize="@dimen/_15sdp"-->
+        <!--android:textColor="@color/grey_300"-->
+        <!--android:text="%"/>-->
+
+    <LinearLayout
+        android:id="@+id/lnValue"
+        android:paddingTop="@dimen/space"
+        android:orientation="vertical"
+        android:layout_below="@+id/lnrActions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="@dimen/font_small"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/value"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="@dimen/font_small"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/valueDate"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:layout_below="@+id/lnValue"
+        android:id="@+id/chart1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--<lecho.lib.hellocharts.view.LineChartView-->
+        <!--android:id="@+id/lineChart"-->
+        <!--android:paddingLeft="@dimen/space_double"-->
+        <!--android:paddingRight="@dimen/space_double"-->
+        <!--android:paddingBottom="@dimen/space_triple"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+</LinearLayout>

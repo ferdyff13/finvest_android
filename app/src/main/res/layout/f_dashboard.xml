@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <!--
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/city" />
+        -->
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appBar"
+        android:background="@drawable/bg_gradation"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/space_double"
+        android:paddingLeft="@dimen/space"
+        android:paddingRight="@dimen/space"
+        android:paddingTop="@dimen/space_double">
+
+        <Button
+            android:id="@+id/bPortfolio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/space_half"
+            android:layout_marginRight="@dimen/space_half"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:minHeight="0dp"
+            android:padding="@dimen/space"
+            android:text="@string/dashboard.my_portfolio"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/font_small" />
+
+        <Button
+            android:id="@+id/bPending"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/space_half"
+            android:layout_marginRight="@dimen/space_half"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:minHeight="0dp"
+            android:padding="@dimen/space"
+            android:text="@string/dashboard.pending_order"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/font_small" />
+
+        <Button
+            android:id="@+id/bNewsFeed"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/space_half"
+            android:layout_marginRight="@dimen/space_half"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:minHeight="0dp"
+            android:padding="@dimen/space"
+            android:text="@string/dashboard.news_feed"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/font_small" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/shadow"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@drawable/toolbar_dropshadow" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

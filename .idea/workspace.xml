@@ -1,0 +1,1436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a735c606-6a14-4f8f-b66c-4736b266bdb2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__and_v26_finvest_android_app_libs_YouTubeAndroidPlayerApi_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__and_v26_finvest_android_app_libs_activation_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__and_v26_finvest_android_app_libs_additionnal_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__and_v26_finvest_android_app_libs_mail_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_acra_acra_4_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_acra_acra_4_9_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_26_0_0_alpha1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_26_0_0_alpha1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_26_0_0_alpha1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_26_0_0_alpha1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_26_0_0_alpha1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_26_0_0_alpha1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_26_0_0_alpha1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_26_0_0_alpha1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_instrumentation_1_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_instrumentation_1_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_26_0_0_alpha1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_26_0_0_alpha1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_25_0_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_25_0_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_26_0_0_alpha1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_26_0_0_alpha1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_26_0_0_alpha1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_26_0_0_alpha1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_26_0_0_alpha1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_26_0_0_alpha1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_26_0_0_alpha1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_26_0_0_alpha1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_26_0_0_alpha1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_26_0_0_alpha1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_26_0_0_alpha1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_26_0_0_alpha1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_26_0_0_alpha1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_26_0_0_alpha1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_26_0_0_alpha1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_26_0_0_alpha1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_2_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_2_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_2_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_2_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_exposed_instrumentation_api_publish_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_exposed_instrumentation_api_publish_0_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_rules_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_rules_0_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_0_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_26_0_0_alpha1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_26_0_0_alpha1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_crashlytics_sdk_android_answers_1_3_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_crashlytics_sdk_android_answers_1_3_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_crashlytics_sdk_android_beta_1_1_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_crashlytics_sdk_android_beta_1_1_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_crashlytics_sdk_android_crashlytics_2_5_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_crashlytics_sdk_android_crashlytics_2_5_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_crashlytics_sdk_android_crashlytics_core_2_3_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_crashlytics_sdk_android_crashlytics_core_2_3_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_daimajia_slider_library_1_1_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_daimajia_slider_library_1_1_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_PhilJay_MPAndroidChart_v3_0_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_PhilJay_MPAndroidChart_v3_0_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_afollestad_material_dialogs_core_0_8_5_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_afollestad_material_dialogs_core_0_8_5_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_3_6_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_3_6_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_okhttp_integration_1_3_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_okhttp_integration_1_3_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_clans_fab_1_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_clans_fab_1_6_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_flavienlaurent_datetimepicker_library_0_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_flavienlaurent_datetimepicker_library_0_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_hotchemi_permissionsdispatcher_2_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_hotchemi_permissionsdispatcher_2_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_lecho_hellocharts_library_1_5_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_lecho_hellocharts_library_1_5_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_scottyab_showhidepasswordedittext_0_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_scottyab_showhidepasswordedittext_0_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_10_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_10_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_10_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_10_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_location_10_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_location_10_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_10_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_10_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_auto_auto_common_0_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_auto_auto_common_0_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_auto_service_auto_service_1_0_rc2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_auto_service_auto_service_1_0_rc2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_6_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_6_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_18_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_18_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_intuit_sdp_sdp_android_1_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_intuit_sdp_sdp_android_1_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_butterknife_7_0_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_butterknife_7_0_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_timber_timber_4_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_timber_timber_4_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_mobsandgeeks_android_saripaar_2_0_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_mobsandgeeks_android_saripaar_2_0_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_nineoldandroids_library_2_4_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_nineoldandroids_library_2_4_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_logging_interceptor_3_0_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_logging_interceptor_3_0_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_2_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_2_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp_okhttp_2_2_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp_okhttp_2_2_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_6_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_6_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_picasso_picasso_2_5_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_picasso_picasso_2_5_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_adapter_rxjava_2_0_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_adapter_rxjava_2_0_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_0_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_0_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_0_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_0_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_yahoo_mobile_client_android_util_rangeseekbar_rangeseekbar_library_0_2_0_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_yahoo_mobile_client_android_util_rangeseekbar_rangeseekbar_library_0_2_0_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_2_4_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_2_4_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__de_codecrafters_tableview_tableview_1_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__de_codecrafters_tableview_tableview_1_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__de_hdodenhof_circleimageview_2_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__de_hdodenhof_circleimageview_2_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__frankiesardo_icepick_3_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__frankiesardo_icepick_3_1_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__frankiesardo_icepick_processor_3_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__frankiesardo_icepick_processor_3_1_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_fabric_sdk_android_fabric_1_3_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_fabric_sdk_android_fabric_1_3_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxandroid_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxandroid_1_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava_1_1_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava_1_1_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_realm_realm_android_0_87_4_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_realm_realm_android_0_87_4_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__it_dex_dexmovingimageview_dexmovingimageviewlib_0_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__it_dex_dexmovingimageview_dexmovingimageviewlib_0_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_annotation_javax_annotation_api_1_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_annotation_javax_annotation_api_1_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__joda_time_joda_time_2_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__joda_time_joda_time_2_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__me_zhanghai_android_materialprogressbar_library_1_1_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__me_zhanghai_android_materialprogressbar_library_1_1_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_gotev_uploadservice_3_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_gotev_uploadservice_3_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_directory_studio_org_apache_commons_io_2_4_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_directory_studio_org_apache_commons_io_2_4_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_http_legacy_android_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_http_legacy_android_26.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_android_4_3_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_android_4_3_5_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpmime_4_3_6_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpmime_4_3_6_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_clojure_clojure_1_6_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_clojure_clojure_1_6_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_clojure_core_cache_0_6_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_clojure_core_cache_0_6_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_clojure_data_priority_map_0_0_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_clojure_data_priority_map_0_0_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_modelmapper_modelmapper_0_7_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_modelmapper_modelmapper_0_7_5_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_sufficientlysecure_html_textview_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_sufficientlysecure_html_textview_3_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__quoin_quoin_0_1_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__quoin_quoin_0_1_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__scout_scout_0_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__scout_scout_0_1_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__slingshot_slingshot_0_10_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__slingshot_slingshot_0_10_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__stencil_stencil_0_3_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__stencil_stencil_0_3_5_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Android-Invisee-Backup.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Android-Invisee-Backup.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Invisee.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Invisee.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-invisee-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android-invisee-project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/invisee/finvest/ApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/invisee/finvest/ApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/invisee/finvest/SignInActivityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/invisee/finvest/SignInActivityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/InviseeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/InviseeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/crashreport/ACRAReportSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/crashreport/ACRAReportSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/InviseeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/InviseeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/AnswerOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/AnswerOption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/AnswerReason.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/AnswerReason.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Branch.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Branch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/CartList.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/CartList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Child.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/ChildAnswer.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/ChildAnswer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/ChildAnswerLoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/ChildAnswerLoad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Completeness.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Completeness.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Composition.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Composition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/DtoNetFee.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/DtoNetFee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Faq.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Faq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/FatcaAnswerOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/FatcaAnswerOption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/FatcaChilds.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/FatcaChilds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/FatcaQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/FatcaQuestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Fee.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Fee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/FundAllocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/FundAllocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/FundPackages.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/FundPackages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/InvestmentAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/InvestmentAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/InvestmentPerformance.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/InvestmentPerformance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Kyc.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Kyc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/KycLookup.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/KycLookup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/MaxScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/MaxScore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/News.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Packages.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Packages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/PackagesPerformance.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/PackagesPerformance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/PepCountry.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/PepCountry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/PortfolioChartData.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/PortfolioChartData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/PortfolioInvestment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/PortfolioInvestment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/PortfolioProductComposition.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/PortfolioProductComposition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Questionaires.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Questionaires.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/RedemptionData.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/RedemptionData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/RedemptionProductComposition.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/RedemptionProductComposition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/RiskProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/RiskProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/RiskProfileAnswerOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/RiskProfileAnswerOption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/RiskProfileQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/RiskProfileQuestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Sales.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Sales.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/SecurityQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/SecurityQuestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/TopUpViseePay.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/TopUpViseePay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/TransactionHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/TransactionHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/TransactionTransfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/TransactionTransfer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/TransactionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/TransactionType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/WalletBalance.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/WalletBalance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/WalletHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/WalletHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/ActivateUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/ActivateUserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/CheckPinRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/CheckPinRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/ConfirmationPartialRedemptionRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/ConfirmationPartialRedemptionRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/ConfirmationRedemptionRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/ConfirmationRedemptionRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/CreatePartialRedemptionRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/CreatePartialRedemptionRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/CreateRedemptionRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/CreateRedemptionRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/ForgotPasswordRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/ForgotPasswordRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/InvestmentPerformanceRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/InvestmentPerformanceRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/KycDataRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/KycDataRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/KycLookupRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/KycLookupRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/ListRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/ListRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/LoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/PackagePerformanceRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/PackagePerformanceRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/RegistrationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/RegistrationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/ResetPasswordRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/ResetPasswordRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/SaveFatcaRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/SaveFatcaRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/SaveReminderRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/SaveReminderRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/SaveUserInfoRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/SaveUserInfoRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/SettlementInfoRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/SettlementInfoRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/TransactionTransferRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/TransactionTransferRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/WalletRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/WalletRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/CartListResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/CartListResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/CartTrxResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/CartTrxResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/CheckRedemptionResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/CheckRedemptionResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/CompletenessPercentageResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/CompletenessPercentageResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/ConfirmationRedemptionResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/ConfirmationRedemptionResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/CreateRedemptionResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/CreateRedemptionResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/FaqResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/FaqResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/FundAllocationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/FundAllocationResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/GenericResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/GenericResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/InvestmentAccountResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/InvestmentAccountResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/InvestmentListResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/InvestmentListResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/InvestmentPerformanceResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/InvestmentPerformanceResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/LoadKycDataResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/LoadKycDataResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/LoginResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/LoginResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/NewsFeedResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/NewsFeedResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/PackageByTokenResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/PackageByTokenResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/PackageResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/PackageResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/PackagesPerformanceResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/PackagesPerformanceResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/PortfolioInvestmentListResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/PortfolioInvestmentListResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/PortfolioInvestmentSummaryResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/PortfolioInvestmentSummaryResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/RedemptionOrderDetailResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/RedemptionOrderDetailResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/RiskProfileResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/RiskProfileResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/SettlementInfoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/SettlementInfoResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/TransactionTransferResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/TransactionTransferResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/UserInfoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/UserInfoResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/WalletBalanceResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/WalletBalanceResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/WalletHistoryResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/responses/WalletHistoryResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/pojo/DummyCatalogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/pojo/DummyCatalogue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/pojo/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/pojo/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/prefs/PrefKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/prefs/PrefKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/realm/RealmHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/realm/RealmHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/realm/model/KycLookupModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/realm/model/KycLookupModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/realm/model/KycModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/realm/model/KycModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/realm/model/SecurityQuestionModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/realm/model/SecurityQuestionModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/realm/model/SettlementInfoModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/realm/model/SettlementInfoModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/ActivationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/ActivationActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/BaseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/BaseActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/BasePresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/BasePresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/CartActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/CartActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/CatalogueActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/CatalogueActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/CheckoutActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/CheckoutActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/KycActivityPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/KycActivityPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/ListOfCatalogueActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/ListOfCatalogueActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/ListPortfolioActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/ListPortfolioActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/ListTopUpActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/ListTopUpActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/MainPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/MainPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/NewsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/NewsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/PendingOrderActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/PendingOrderActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/PortfolioActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/PortfolioActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/PortfolioConfirmationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/PortfolioConfirmationActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/RedemptionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/RedemptionActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/ReminderActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/ReminderActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/ReminderListActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/ReminderListActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/RiskProfilePresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/RiskProfilePresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/SignInActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/SignInActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/SignUpActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/SignUpActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/SplashScreenActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/SplashScreenActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/SplashScreenPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/SplashScreenPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/TopUpBCAActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/TopUpBCAActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/TopUpMandiriActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/TopUpMandiriActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/TopUpPermataActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/TopUpPermataActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/TransactiontActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/TransactiontActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/UserProfileActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/UserProfileActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/UserProfilePresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/UserProfilePresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/WalletActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/WalletActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/pager/DashboardPagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/pager/DashboardPagerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/pager/DetailOfCataloguePagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/pager/DetailOfCataloguePagerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/pager/DetailPortfolioAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/pager/DetailPortfolioAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/pager/KycPagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/pager/KycPagerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/pager/KycPagerAdapterNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/pager/KycPagerAdapterNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/pager/RiskProfileAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/pager/RiskProfileAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/pager/UserProfilePagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/pager/UserProfilePagerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/CartDetailAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/CartDetailAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/CartListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/CartListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/CatalogueAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/CatalogueAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/DrawerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/DrawerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/FaqListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/FaqListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/FatcaAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/FatcaAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/FundAllocationAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/FundAllocationAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/MenuAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/MenuAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/NewsFeedAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/NewsFeedAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/PaymentListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/PaymentListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/PendingOrderAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/PendingOrderAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/PieChartDescAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/PieChartDescAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/PortfolioAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/PortfolioAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/ReminderAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/ReminderAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/TransactionHistoryAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/TransactionHistoryAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/WalletHistoryAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/WalletHistoryAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/table/FundAllocationTableAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/table/FundAllocationTableAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/table/PendingOrderTableAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/table/PendingOrderTableAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/BaseFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/BaseFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/activation/ActivationAccountFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/activation/ActivationAccountFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/activation/ActivationAccountPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/activation/ActivationAccountPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/cart/CartFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/cart/CartFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/cart/CartPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/cart/CartPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/catalogue/BusinessRuleFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/catalogue/BusinessRuleFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/catalogue/BusinessRulePresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/catalogue/BusinessRulePresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/catalogue/DetailOfCatalogueFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/catalogue/DetailOfCatalogueFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/catalogue/DetailOfCataloguePresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/catalogue/DetailOfCataloguePresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/catalogue/FundAllocationFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/catalogue/FundAllocationFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/catalogue/FundAllocationPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/catalogue/FundAllocationPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/catalogue/ListOfCatalogueFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/catalogue/ListOfCatalogueFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/catalogue/ListOfCataloguePresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/catalogue/ListOfCataloguePresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/catalogue/PackagePerformanceFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/catalogue/PackagePerformanceFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/catalogue/PackagePerformancePresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/catalogue/PackagePerformancePresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/changepassword/ChangePasswordFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/changepassword/ChangePasswordFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/checkout/CartDetailFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/checkout/CartDetailFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/checkout/PaymentListFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/checkout/PaymentListFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/checkout/PaymentListPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/checkout/PaymentListPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/checkout/SummaryFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/checkout/SummaryFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/dashboard/DashboardFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/dashboard/DashboardFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/dashboard/DashboardPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/dashboard/DashboardPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/dashboard/MyPortfolioFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/dashboard/MyPortfolioFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/dashboard/MyPortfolioPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/dashboard/MyPortfolioPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/dashboard/NewsFeedFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/dashboard/NewsFeedFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/dashboard/NewsFeedPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/dashboard/NewsFeedPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/dashboard/PendingOrderFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/dashboard/PendingOrderFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/dashboard/PendingOrderPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/dashboard/PendingOrderPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/menu/MenuFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/menu/MenuFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/new_dashboard/NewDashboardFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/new_dashboard/NewDashboardFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/new_dashboard/NewDashboardPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/new_dashboard/NewDashboardPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/news/DetailNewsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/news/DetailNewsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/news/DetailNewsPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/news/DetailNewsPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/pending_order/DetailPendingOrderFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/pending_order/DetailPendingOrderFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/portfolio/DetailPortfolioFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/portfolio/DetailPortfolioFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/portfolio/DetailPortfolioPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/portfolio/DetailPortfolioPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/portfolio/ListPortfolioFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/portfolio/ListPortfolioFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/portfolio/ListPortfolioPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/portfolio/ListPortfolioPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/portfolio/PortfolioConfirmationFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/portfolio/PortfolioConfirmationFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/portfolio/PortfolioConfirmationPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/portfolio/PortfolioConfirmationPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/portfolio/PortfolioDetailFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/portfolio/PortfolioDetailFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/portfolio/PortfolioFundAlocationFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/portfolio/PortfolioFundAlocationFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/portfolio/PortfolioFundAlocationPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/portfolio/PortfolioFundAlocationPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/portfolio/PortfolioInvesmentPerformanceFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/portfolio/PortfolioInvesmentPerformanceFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/portfolio/PortfolioInvesmentPerformancePresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/portfolio/PortfolioInvesmentPerformancePresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/redemption/AccountFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/redemption/AccountFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/redemption/AccountPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/redemption/AccountPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/redemption/ConfirmationFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/redemption/ConfirmationFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/redemption/ConfirmationPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/redemption/ConfirmationPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/redemption/SummaryFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/redemption/SummaryFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/reminder/ReminderAddFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/reminder/ReminderAddFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/reminder/ReminderAddPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/reminder/ReminderAddPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/reminder/ReminderListFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/reminder/ReminderListFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/reminder/ReminderListPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/reminder/ReminderListPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/setting/SettingFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/setting/SettingFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/signIn/ForgotPasswordFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/signIn/ForgotPasswordFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/signIn/ForgotPasswordPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/signIn/ForgotPasswordPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/signIn/ResetPasswordFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/signIn/ResetPasswordFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/signIn/ResetPasswordPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/signIn/ResetPasswordPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/signIn/SignInFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/signIn/SignInFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/signIn/SignInPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/signIn/SignInPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/signup/RegistrationFormFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/signup/RegistrationFormFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/signup/RegistrationFormPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/signup/RegistrationFormPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/support/SupportFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/support/SupportFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/support/SupportPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/support/SupportPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/transaction/TransactionFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/transaction/TransactionFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/transaction/TransactionPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/transaction/TransactionPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/FatcaFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/FatcaFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/FatcaPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/FatcaPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/KycBaseFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/KycBaseFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/KycDataFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/KycDataFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/KycFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/KycFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/KycHomeAddressFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/KycHomeAddressFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/KycInvestmentProfileFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/KycInvestmentProfileFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/KycLegalAddressFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/KycLegalAddressFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/KycOfficeAddressFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/KycOfficeAddressFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/KycOtherFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/KycOtherFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/KycPoliticallyExposedPersonFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/KycPoliticallyExposedPersonFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/KycPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/KycPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/KycSettlementInfoPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/KycSettlementInfoPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/RiskProfileFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/RiskProfileFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/RiskProfilePresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/RiskProfilePresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/RiskProfileQuestionFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/RiskProfileQuestionFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/UserInfoFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/UserInfoFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/UserInfoPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/UserInfoPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/wallet/ListTopUpFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/wallet/ListTopUpFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/wallet/TopUpFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/wallet/TopUpFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/wallet/WalletFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/wallet/WalletFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/wallet/WalletPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/wallet/WalletPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/receiver/ReminderReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/receiver/ReminderReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/util/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/util/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/util/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/util/DateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/util/FontsOverride.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/util/FontsOverride.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/util/LocationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/util/LocationHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/util/PermissionChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/util/PermissionChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/util/PixelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/util/PixelUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/util/eventBus/RxBus.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/util/eventBus/RxBus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/util/eventBus/RxBusObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/util/eventBus/RxBusObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/util/ui/MonthYearPickerDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/util/ui/MonthYearPickerDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/util/ui/NonSwipeableViewPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/util/ui/NonSwipeableViewPager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/util/ui/RecyclerItemClickListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/util/ui/RecyclerItemClickListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/util/ui/WrapContentHeightViewPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/util/ui/WrapContentHeightViewPager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/jump_from_down.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/jump_from_down.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/jump_to_down.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/jump_to_down.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_in_right.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_in_right.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_out_left.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_out_left.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_gradation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_gradation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_gradation_dark.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_gradation_dark.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_menu_left.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_menu_left.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_menu_right.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_menu_right.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_primary_oval.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_primary_oval.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_primary_oval_stroke.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_primary_oval_stroke.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_red_oval.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_red_oval.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_rounded_primary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_rounded_primary.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_toolbar_user_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_toolbar_user_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_yellow_oval.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_yellow_oval.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bottom_dropshadow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bottom_dropshadow.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/button_accent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_accent.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/button_oval_white_outline.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_oval_white_outline.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/button_primary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_primary.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/button_primary_dark.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_primary_dark.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/button_white_outline.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_white_outline.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/button_white_outline_text.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_white_outline_text.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/fab_label_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/fab_label_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/loading_invisee.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/loading_invisee.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/progress_bar_target_bar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/progress_bar_target_bar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/progress_bar_target_progress.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/progress_bar_target_progress.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/progressbar_bg_primary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/progressbar_bg_primary.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/rounded_button.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rounded_button.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/rounded_edittext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rounded_edittext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/toolbar_dropshadow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/toolbar_dropshadow.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/a_activation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/a_activation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/a_cart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/a_cart.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/a_catalogue.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/a_catalogue.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/a_checkout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/a_checkout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/a_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/a_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/a_news.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/a_news.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/a_portfolio.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/a_portfolio.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/a_redemption.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/a_redemption.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/a_reminder.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/a_reminder.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/a_signin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/a_signin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/a_signup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/a_signup.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/a_splashscreen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/a_splashscreen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/a_user_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/a_user_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/cart_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/cart_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/custom_tab.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/custom_tab.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog_fund_allocation_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_fund_allocation_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog_pending_order_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_pending_order_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog_trx_history_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_trx_history_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_activation_account.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_activation_account.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_business_rules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_business_rules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_dashboard.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_dashboard.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_detail_cart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_detail_cart.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_detail_news.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_detail_news.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_detail_of_catalogue.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_detail_of_catalogue.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_detail_portfolio.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_detail_portfolio.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_fatca.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_fatca.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_fatca_deprecated.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_fatca_deprecated.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_forgot_password.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_forgot_password.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_fund_allocation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_fund_allocation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_kyc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_kyc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_kyc_data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_kyc_data.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_kyc_home_address.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_kyc_home_address.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_kyc_investment_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_kyc_investment_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_kyc_legal_address.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_kyc_legal_address.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_kyc_office_address.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_kyc_office_address.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_kyc_other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_kyc_other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_kyc_pollitically_exposed_person.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_kyc_pollitically_exposed_person.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_kyc_settlement_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_kyc_settlement_info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_list_cart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_list_cart.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_list_of_catalogue.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_list_of_catalogue.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_list_portfolio.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_list_portfolio.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_my_portfolio.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_my_portfolio.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_news_feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_news_feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_package_performance.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_package_performance.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_payment_method.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_payment_method.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_pending_order.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_pending_order.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_portfolio_confirmation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_portfolio_confirmation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_portfolio_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_portfolio_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_portfolio_fund_alocation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_portfolio_fund_alocation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_portfolio_investment_performance.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_portfolio_investment_performance.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_redemption_account.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_redemption_account.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_redemption_confirmation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_redemption_confirmation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_redemption_summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_redemption_summary.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_registration_form.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_registration_form.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_reminder_add.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_reminder_add.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_reminder_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_reminder_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_reset_password.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_reset_password.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_risk_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_risk_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_risk_profile_question.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_risk_profile_question.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_setting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_setting.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_signin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_signin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_summary.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_support.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_support.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_top_up_permata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_top_up_permata.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_top_up_summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_top_up_summary.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_topup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_topup.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_transaction.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_transaction.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_user_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_user_info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_wallet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_wallet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/f_wallet_summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/f_wallet_summary.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/month_year_picker_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/month_year_picker_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/nav_header.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/nav_header.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_cart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_cart.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_cart_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_cart_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_catalogue.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_catalogue.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_composition.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_composition.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_contact_us.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_contact_us.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_drawer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_drawer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_faq.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_faq.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_fatca_question.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_fatca_question.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_fee.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_fee.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_fund_allocation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_fund_allocation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_my_portfolio.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_my_portfolio.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_news.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_news.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_piechart_desc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_piechart_desc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_portfolio.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_portfolio.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_product.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_product.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_redemption_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_redemption_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_reminder.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_reminder.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_risk_profile_question.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_risk_profile_question.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_transfer_summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_transfer_summary.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_trx_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_trx_history.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_wallet_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_wallet_history.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_wallet_summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_wallet_summary.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/spinner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/spinner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/step_bar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/step_bar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/step_bar_redemption.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/step_bar_redemption.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/toolbar_title_center.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/toolbar_title_center.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_add.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_add.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-in/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-in/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/array.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/array.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/integers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/integers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/invisee/finvest/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/invisee/finvest/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/InviseeService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="149" selection-start-line="149" selection-end-line="149" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/catalogue/DetailOfCataloguePresenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3795">
+              <caret line="277" column="1" selection-start-line="277" selection-start-column="1" selection-end-line="277" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3122#3123#0" expanded="true" />
+                <element signature="e#3202#3203#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/MaxScore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+              <folding>
+                <element signature="e#691#692#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/catalogue/DetailOfCatalogueFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3300">
+              <caret line="267" column="45" selection-start-line="267" selection-start-column="45" selection-end-line="267" selection-end-column="45" />
+              <folding>
+                <element signature="e#8768#8769#0" expanded="true" />
+                <element signature="e#8814#8815#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/UserInfoFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1530">
+              <caret line="159" selection-start-line="159" selection-end-line="159" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/signup/RegistrationFormPresenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="870">
+              <caret line="77" column="34" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/wallet/TopUpFinPayPresenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/KycDataFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3960">
+              <caret line="339" column="95" selection-start-line="339" selection-start-column="95" selection-end-line="339" selection-end-column="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile_vertical" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Visee</find>
+      <find>CreatePartial</find>
+      <find>confirm</find>
+      <find>topupTra</find>
+      <find>colorPrimary</find>
+      <find>reksa</find>
+      <find>slider_reksadana</find>
+      <find>Date</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\Finvest\finvest-android-v26\app\src\main\res\drawable</dir>
+      <dir>D:\Finvest\finvest-android-v26\app</dir>
+    </dirStrings>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="D:\KeyStore\finvest_key_store.jks" />
+    <option name="KEY_ALIAS" value="Finvest" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/wallet/DetailOfTopUpFinPayTransactionPresenter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/TopUpViseePay.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/ListTopUpActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/wallet/TopUpSummaryFinPayFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/wallet/DetailOfTopUpFinPayTransactionFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/f_top_up_summary_finpay.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/wallet/ListTopUpFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/WalletActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/f_top_up_permata.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/RiskProfileFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/requests/CreatePartialRequest.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/redemption/AccountPresenter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/PortfolioConfirmationActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/row_redemption_detail.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/redemption/SummaryFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/f_portfolio_confirmation.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/row_trx_history.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/WalletHistory.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/reminder/ReminderEditPresenter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/changepassword/ChangePasswordFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/f_redemption_summary.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values-in/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/progress_bar_target_progress.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/progressbar_bg_primary.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/f_wallet_summary.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/row_composition.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/row_wallet_summary.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/f_kyc_data.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/row_transfer_summary.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/UserInfoFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/new_dashboard/NewDashboardFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/new_dashboard/NewDashboardPresenter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/catalogue/BusinessRuleFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/crashreport/ACRAReportSender.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/array.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/TransactionHistoryAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/PendingOrderAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/pending_order/DetailPendingOrderFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/util/DateUtil.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/portfolio/PortfolioConfirmationFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/transaction/TransactionPresenter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/transaction/TransactionFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/KycDataFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/MaxScore.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/catalogue/DetailOfCataloguePresenter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/catalogue/DetailOfCatalogueFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/InviseeService.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="finvest-android-v26" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="finvest-android-v26" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="finvest-android-v26" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="finvest" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="finvest-android-v26" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="finvest" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="finvest-android-v26" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="finvest" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="finvest-android-v26" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExportApk.ApkPath" value="D:\Doc APK" />
+    <property name="ExportApk.BuildType" value="release" />
+    <property name="ExportApk.Flavors" value="" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="device.picker.selection" value="J5AXGF02U473LR8" />
+    <property name="last_opened_file_path" value="D:/Doc APK" />
+    <property name="not.eligible.for.single.variant.sync" value="true" />
+    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.invisee.finvest.ui.activities" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\ferdy.firmandika\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a735c606-6a14-4f8f-b66c-4736b266bdb2" name="Default" comment="" />
+      <created>1534824777617</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534824777617</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Resources Explorer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26251787" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Captures" order="6" side_tool="true" weight="0.25" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49783784" weight="0.3297491" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39904422" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50216216" side_tool="true" weight="0.3297491" />
+      <window_info anchor="bottom" id="Logcat" order="10" weight="0.43010753" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3297491" />
+      <window_info anchor="right" id="Flutter Inspector" />
+      <window_info anchor="right" id="Flutter Outline" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Preview" order="4" weight="0.24" />
+      <window_info anchor="right" id="Device File Explorer" order="5" side_tool="true" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Fabric" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26594594" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Build Variants" order="2" side_tool="true" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Captures" order="6" weight="0.25" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3297491" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Android Profiler" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Logcat" order="9" weight="0.3297491" />
+      <window_info anchor="bottom" id="Build" order="10" visible="true" weight="0.3297491" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Preview" order="6" weight="0.32972974" />
+      <window_info anchor="right" id="Gradle" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/wallet/TopUpFinPayPresenter.java</url>
+          <line>59</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/wallet/TopUpFinPayPresenter.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/wallet/TopUpFinPayPresenter.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/wallet/TopUpFinPayPresenter.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/wallet/TopUpFinPayPresenter.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/wallet/TopUpFinPayPresenter.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/wallet/TopUpFinPayPresenter.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/wallet/TopUpFinPayPresenter.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/wallet/TopUpFinPayPresenter.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/wallet/TopUpFinPayPresenter.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/signIn/ForgotPasswordTempFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="65" column="27" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/signIn/ForgotPasswordTempPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/f_re_password.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/signIn/RePasswordPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/signIn/RePasswordFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1625">
+          <caret line="84" column="15" selection-start-line="84" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/UserInfoPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/BaseFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="179" column="16" selection-start-line="179" selection-start-column="16" selection-end-line="179" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/ic_catalogue/ic_catalogue.png" />
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-26/java/lang/String.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/Slider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1525">
+          <caret line="93" column="18" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/grid_cell.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/gridview/DashboardGridViewAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="60" column="58" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/changepassword/ChangePasswordPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="32" selection-start-line="31" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/f_new_dashboard.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225" />
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/slider1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/slider2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/slider4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/slider3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/dashboard/DashboardFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2625">
+          <caret line="180" column="5" selection-start-line="143" selection-start-column="4" selection-end-line="180" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3875">
+          <caret line="205" column="15" selection-start-line="205" selection-start-column="15" selection-end-line="205" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/dashboard/DashboardPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/new_dashboard/NewDashboardFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2275">
+          <caret line="148" column="22" selection-start-line="148" selection-start-column="22" selection-end-line="148" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/new_dashboard/NewDashboardPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3825">
+          <caret line="174" selection-start-line="174" selection-end-line="174" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/catalogue/PackagePerformanceFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/catalogue/BusinessRuleFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="112" column="106" selection-start-line="112" selection-start-column="106" selection-end-line="112" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/crashreport/ACRAReportSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/array.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/pager/DetailOfCataloguePagerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/TransactionHistoryAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-275">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/dashboard/PendingOrderFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="129" column="37" selection-start-line="129" selection-start-column="37" selection-end-line="129" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/adapters/rv/PendingOrderAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1126">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/pending_order/DetailPendingOrderFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="125" column="52" selection-start-line="125" selection-start-column="52" selection-end-line="125" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/portfolio/DetailPortfolioFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2425">
+          <caret line="131" column="33" selection-start-line="131" selection-start-column="33" selection-end-line="131" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/activities/PortfolioConfirmationActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1325">
+          <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/portfolio/PortfolioConfirmationFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3475">
+          <caret line="185" column="106" selection-start-line="185" selection-start-column="106" selection-end-line="185" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/f_portfolio_confirmation.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/portfolio/DetailPortfolioPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="192" column="42" selection-start-line="192" selection-start-column="42" selection-end-line="192" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/transaction/TransactionFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="77" column="38" selection-start-line="77" selection-start-column="38" selection-end-line="77" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/util/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/TopUpTransaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/transaction/TransactionPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="52" column="70" selection-start-line="52" selection-start-column="70" selection-end-line="52" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/catalogue/DetailOfCataloguePresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3795">
+          <caret line="277" column="1" selection-start-line="277" selection-start-column="1" selection-end-line="277" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3122#3123#0" expanded="true" />
+            <element signature="e#3202#3203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/beans/MaxScore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/catalogue/DetailOfCatalogueFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3300">
+          <caret line="267" column="45" selection-start-line="267" selection-start-column="45" selection-end-line="267" selection-end-column="45" />
+          <folding>
+            <element signature="e#8768#8769#0" expanded="true" />
+            <element signature="e#8814#8815#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/UserInfoFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="159" selection-start-line="159" selection-end-line="159" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/signup/RegistrationFormPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="77" column="34" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/wallet/TopUpFinPayPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/ui/fragments/userProfile/KycDataFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3960">
+          <caret line="339" column="95" selection-start-line="339" selection-start-column="95" selection-end-line="339" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/invisee/finvest/data/api/InviseeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="149" selection-start-line="149" selection-end-line="149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:padding="@dimen/space_double"
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="@dimen/font_big"
+            android:text="Cara mengisi saldo FINPAY"/>
+
+        <TextView
+            android:textSize="@dimen/font_medium"
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="A. Cara mengisi saldo FINPAY melalui ATM Bank Permata"/>
+
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Masukkan kartu ATM dan PIN Permata Anda"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Masuk ke menu TRANSAKSI LAINNYA > PEMBAYARAN > PEMBAYARAN VIRTUAL ACCOUNT > BENAR"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Masukkan 16 digit nomor akun Finpay anda (contoh:82118817010xxxxx) dan nominal uang."/>
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Masukkan nominal sesuai jumlah yang akan Anda transfer."/>"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Cek kembali transaksi Anda, lalu pilih YA untuk melanjutkan."/>
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Pengisian saldo Finpay melalui ATM sukses dilakukan."/>
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_medium"
+            android:textStyle="bold"
+            android:text="B. Cara mengisi saldo FINPAY melalui ATM Bank Lain"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Masukkan kartu ATM dan PIN Anda"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Pilih menu TRANSAKSI LAINNYA > TRANSFER > TRANSFER KE BANK LAIN."/>
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Masukkan kode bank 013 untuk pilihan Bank Permata, tekan BENAR."/>
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Masukkan 16 digit nomor akun Finpay anda (contoh:82118817010xxxxx), tekan BENAR."/>
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Masukkan nominal uang yang akan Anda transfer, tekan BENAR."/>
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Cek kembali info nomor akun Finpay anda dan nominal transfer, kemudian pilih BENAR."/>
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. Pengisian saldo Finpay melalui ATM sukses dilakukan."/>
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_medium"
+            android:textStyle="bold"
+            android:text="C. Cara mengisi saldo FINPAY melalui PermataMobile"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Pilih Payment"
+            android:id="@+id/textView17" />
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Pilih “Virtual account"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Masukkan Bill ID : 16 digit nomor akun Finpay anda (contoh:82118817010xxxxx) dan masukan nominal yang Anda inginkan."/>
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Menerima SMS dari 3399 yang berisi No. Virtual Account BANK, Nama Nasabah dan Nominal pembayaran, ketik 2 digit TIN yang dipilih secara acak."/>
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Menerima SMS dari 3399 berupa konfirmasi bahwa Transaksi anda dengan PermataMobile telah berhasil / sukses"
+            android:id="@+id/textView18" />
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Selesai"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/font_medium"
+            android:text="D. Cara mengisi saldo FINPAY melalui PermataNet"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Pilih menu Transfer"/>
+
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Pilih menu FundTransfer"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Pilih Transfer Other BANK Account"/>
+
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Pada tombol From Pilih Rekening Pendebetan dana"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Pada tombol To, masukkan 16 digit nomor akun Finpay anda (contoh:82118817010xxxxx)"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Pada tombol Add Transaction Basket tidak perlu diberi tanda centang (V)"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. Pada menu transfer Amount masukan nominal Top Up Saldo"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8. Pada kolom Date masukan tanggal transaksi"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9. Pada menu Add memo tidak perlu memasukan keterangan"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10. Klik Preview untuk melanjutkan transaksi"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11. Akan muncul konfirmasi Nomor Akun Finpay anda, Nama Nasabah, dan Nominal Top Up Saldo"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12. Kemudian masukan response code yang akan muncul pada token anda ke PermataNet"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="13. Akan muncul konfirmasi transaksi berhasil dilakukan"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="14.Bukti transaksi berhasil akan dikirimkan melalui alamat email yang terdaftar di PermataNet"/>
+
+
+        <TextView
+            android:layout_marginTop="@dimen/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="15. Selesai"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+    <!--<WebView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/webViewTopUp" />-->
+
+</LinearLayout>

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:rsb="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:animateLayoutChanges="true">
+
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/lnProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ProgressBar
+                android:layout_gravity="center"
+                android:id="@+id/pbLoading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/lnConnectionError"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:tint="@color/grey_400"
+                    android:src="@drawable/ic_error"/>
+
+                <TextView
+                    android:textSize="@dimen/font_medium"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/connection_error" />
+
+                <TextView
+                    android:id="@+id/tvTryAgain"
+                    android:layout_marginTop="@dimen/space"
+                    android:gravity="center"
+                    android:textColor="@color/red_600"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/try_again" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/lnDismissBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/bConfirm"
+            style="@style/GenericRaisedButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/space_double"
+            android:text="@string/redemption.confirm"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_medium" />
+
+        <CheckBox
+            android:id="@+id/cbAgree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bConfirm"
+            android:layout_marginLeft="@dimen/space_double"
+            android:layout_marginRight="@dimen/space_double"
+            android:layout_marginTop="@dimen/space_double"
+            android:text="@string/redemption.agree" />
+
+        <LinearLayout
+            android:background="@color/grey_400"
+            android:layout_above="@id/cbAgree"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp">
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/cbAgree">
+
+            <ScrollView
+                android:id="@+id/scrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/space">
+
+
+                    <TextView
+                        android:id="@+id/tvPackageName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/red_600"
+                        android:textSize="@dimen/customEntry"
+                        android:textStyle="bold"
+                        tools:text="@string/portfolio.package_name" />
+
+
+                    <LinearLayout
+                        android:id="@+id/lnrData"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvPackageName"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/lnrMarketValue"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/space"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/redemption.market_value"
+                                android:textColor="@color/red_600"
+                                android:textSize="@dimen/font_small" />
+
+                            <TextView
+                                android:id="@+id/tvMarketValue"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/font_reg"
+                                tools:text="IDR 4.350" />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/lnrInvestment"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/space"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/redemption.investment"
+                                android:textColor="@color/red_600"
+                                android:textSize="@dimen/font_small" />
+
+                            <TextView
+                                android:id="@+id/tvInvestment"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/font_reg"
+                                tools:text="[INV 123]" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/lnrFee"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lnrData"
+                        android:layout_marginTop="@dimen/space"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/redemption.fee_percent"
+                            android:textColor="@color/red_600"
+                            android:textSize="@dimen/font_small" />
+
+                        <TextView
+                            android:id="@+id/tvFee"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/space_half"
+                            tools:text="(Fee 3%) - 370.123" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/lnrRedemptionAmount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lnrFee"
+                        android:layout_marginTop="@dimen/space"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/redemption.redeem_amount_indicative"
+                            android:textColor="@color/red_600"
+                            android:textSize="@dimen/font_small" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Rp"
+                                android:textSize="@dimen/font_big"
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:id="@+id/etAmount"
+                                android:layout_width="@dimen/_185sdp"
+                                android:layout_height="wrap_content"
+                                android:inputType="number|numberDecimal"
+                                android:textColor="@color/grey_700"
+                                android:textSize="@dimen/font_big"
+                                android:textStyle="bold"
+                                tools:text="12.345.678" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/space_double"
+                            android:text="@string/redeemtion_desc1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_3sdp"
+                            android:text="@string/redeemtion_desc2"
+                            android:textColor="@color/red_600" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="@dimen/space"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Tidak"
+                                android:layout_marginRight="10dp"/>
+
+                            <Switch
+                                android:id="@+id/togglebutton_redeemtion"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignLeft="@+id/button1"
+                                android:layout_gravity="center"
+                                android:layout_marginBottom="@dimen/space"
+                                android:layout_marginTop="@dimen/space"
+                                android:textOff="YA"
+                                android:textOn="TIDAK"
+                                android:visibility="visible" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ya"
+                                android:layout_marginLeft="10dp"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llvalidasi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/tvValidasi"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="@dimen/_3sdp"
+                                android:textColor="@color/red_500"
+                                android:text="Investasi ini tidak bisa dijual sebagian kerena tidak mencukupi penjualan minimum dan/atau sisa investasi minimum setelah penjualan"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/seekbar_placeholder"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/space"
+                            android:orientation="vertical"
+                            android:visibility="invisible" >
+
+                            <com.invisee.finvest.util.ui.RangeSeekBar
+                                android:id="@+id/rangeSeekBar"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                rsb:singleThumb="true"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

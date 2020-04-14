@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/sl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/space_double"
+            android:paddingLeft="@dimen/space"
+            android:paddingRight="@dimen/space"
+            android:paddingTop="@dimen/space_double">
+
+            <!--NAME-->
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_double">
+
+                <EditText
+                    android:id="@+id/etPepName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/kyc.name"
+                    android:inputType="textPersonName"
+                    android:singleLine="true"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/font_medium" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <!--POSITION/DUTIES-->
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_double">
+
+                <EditText
+                    android:id="@+id/etPepPosition"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/kyc.position_duties"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/font_medium" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+
+            <!--PUBLIC FUNCTION-->
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_double">
+
+                <EditText
+                    android:id="@+id/etPublicFunction"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/kyc.public_function"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/font_medium" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+
+            <!--COUNTRY-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_double"
+                android:text="@string/kyc.country"
+                android:textColor="@color/hintColor"
+                android:textSize="@dimen/font_small" />
+
+            <Spinner
+                android:id="@+id/sPepCountry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:entries="@array/dummy_array"
+                android:focusable="false"
+                android:spinnerMode="dialog" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/grey_700" />
+
+
+
+            <!--YEAR OF SERVICE-->
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_double">
+
+                <EditText
+                    android:id="@+id/etYearOfService"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/kyc.year_of_service"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/font_medium" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+
+            <!--RELATIONSHIP-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_double"
+                android:text="@string/kyc.relationship"
+                android:textColor="@color/hintColor"
+                android:textSize="@dimen/font_small" />
+
+            <Spinner
+                android:id="@+id/sRelationship"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:entries="@array/dummy_array"
+                android:focusable="false"
+                android:spinnerMode="dialog" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/grey_700" />
+
+
+            <EditText
+                android:id="@+id/edtHidden"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:singleLine="true"
+                android:text="hiddenfordata"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/font_medium"
+                android:visibility="gone" />
+
+            <!--NEEDED SPACE FOR FAB AREA-->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/fab_normal_size_plus_margin_double" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabPrev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_margin="@dimen/space_double"
+        android:src="@drawable/ic_keyboard_arrow_left_white_24dp"
+        android:tint="@color/white"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabSize="mini"
+        app:layout_anchor="@id/sl"
+        app:layout_anchorGravity="bottom|left|end" />
+
+</android.support.design.widget.CoordinatorLayout>

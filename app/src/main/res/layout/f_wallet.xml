@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true">
+
+    <LinearLayout
+        android:id="@+id/lnProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ProgressBar
+                android:id="@+id/pbLoading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center" />
+
+            <LinearLayout
+                android:id="@+id/lnConnectionError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_error"
+                    android:tint="@color/grey_400" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/connection_error"
+                    android:textSize="@dimen/font_medium" />
+
+                <TextView
+                    android:id="@+id/tvTryAgain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space"
+                    android:gravity="center"
+                    android:text="@string/try_again"
+                    android:textColor="@color/colorPrimary" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/lnDismissBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/space_double">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/wallet.number_account"
+                            android:textColor="@color/grey_700"
+                            android:textSize="@dimen/font_small" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/space">
+
+                        <TextView
+                            android:id="@+id/txvAccountNumber"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/space"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/grey_900"
+                            android:textSize="@dimen/font_big" />
+
+                        <LinearLayout
+                            android:id="@+id/btn_copy"
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_21sdp"
+                            android:layout_weight="1"
+                            android:background="@drawable/button_accent"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_10sdp"
+                                android:layout_height="@dimen/_10sdp"
+                                android:src="@drawable/ic_copy"
+                                android:tint="@color/white" />
+
+                            <TextView
+                                android:id="@+id/textView10"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/space"
+                                android:layout_marginRight="@dimen/space"
+                                android:text="Salin"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/font_small" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="@dimen/space"
+                    android:background="@color/grey_400"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/space_double">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/wallet.balance"
+                            android:textColor="@color/grey_700"
+                            android:textSize="@dimen/font_small" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/space">
+
+                        <TextView
+                            android:id="@+id/txvBalance"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/space"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/grey_900"
+                            android:textSize="@dimen/font_big" />
+
+                        <LinearLayout
+                            android:id="@+id/lnrTopUp"
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_21sdp"
+                            android:layout_weight="1"
+                            android:background="@drawable/button_accent"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_10sdp"
+                                android:layout_height="@dimen/_10sdp"
+                                android:src="@drawable/ic_upload"
+                                android:tint="@color/white" />
+
+                            <TextView
+                                android:id="@+id/textView9"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/space"
+                                android:layout_marginRight="@dimen/space"
+                                android:text="@string/isi.saldo"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/font_small" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/space"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/viseepay.terms.and.conditions"
+                            android:textSize="@dimen/font_small"
+                            android:textStyle="bold" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Syarat dan ketentuan"
+                                android:textSize="@dimen/font_small"
+                                android:textStyle="bold"
+                                android:id="@+id/textView12" />
+
+
+                            <TextView
+                                android:id="@+id/tvTermsViseePay"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/space_half"
+                                android:text="FinPay"
+                                android:textSize="@dimen/font_small"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                    <!--<TextView-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:layout_marginTop="@dimen/space"-->
+                    <!--android:textSize="@dimen/font_tiny"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="@string/viseepay.warning.withdraw_funds"/>-->
+
+
+                </LinearLayout>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cvPendingTransactionGone"
+                    style="@style/GenericCardViewStyle"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space"
+                    android:layout_marginRight="@dimen/space"
+                    android:layout_marginTop="@dimen/space_double">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/lnPendingTrx"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:padding="@dimen/space">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/tvTotalAmount"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Rp 50.500"
+                                        android:textColor="@color/black"
+                                        android:textSize="@dimen/font_medium" />
+
+                                    <TextView
+                                        android:id="@+id/tvBank"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="Bank Mandiri" />
+
+                                </LinearLayout>
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/tvStatus"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="right"
+                                        android:text="Menunggu Pembayaran" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:id="@+id/lnBoxBelow"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@android:color/white">
+
+                                <RelativeLayout
+                                    android:layout_width="0px"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/border_grey"
+                                    android:gravity="center">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:gravity="left"
+                                        android:orientation="vertical"
+                                        android:paddingLeft="@dimen/space">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="20dp"
+                                            android:layout_marginTop="11dp"
+                                            android:text="Nomor Transaksi"
+                                            android:textColor="@color/black"
+                                            android:textSize="@dimen/font_small" />
+
+                                        <TextView
+                                            android:id="@+id/tvTransactionNumber"
+                                            android:layout_width="wrap_content"
+
+                                            android:layout_height="20dp"
+                                            android:text="V1212223211234"
+                                            android:textSize="@dimen/font_small" />
+
+
+                                    </LinearLayout>
+
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:id="@+id/btn_viseepay"
+                                    android:layout_width="0px"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/border_grey"
+                                    android:gravity="center"
+                                    android:orientation="vertical"
+                                    android:paddingRight="@dimen/space">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:gravity="right"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="20dp"
+                                            android:layout_marginTop="11dp"
+                                            android:text="Batas Waktu Pembayaran"
+                                            android:textColor="@color/black"
+                                            android:textSize="@dimen/font_small" />
+
+                                        <TextView
+                                            android:id="@+id/tvDueDate"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="20dp"
+                                            android:text="V1212223211234"
+                                            android:textSize="@dimen/font_small" />
+
+                                    </LinearLayout>
+
+                                </RelativeLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lnNoPendingTrx"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="@dimen/space">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Tidak ada transaksi yang sedang dalam proses" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/grey_400"></LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/tvDetail"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:padding="@dimen/space"
+                                android:text="Selengkapnya"
+                                android:textColor="@color/red_600"
+                                android:textSize="@dimen/font_small" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="@dimen/space"
+                    android:layout_marginRight="@dimen/space"
+                    android:layout_marginTop="@dimen/space_double"
+                    android:background="@color/grey_400"></LinearLayout>
+
+
+                <android.support.v7.widget.CardView
+                    style="@style/GenericCardViewStyle"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="@dimen/space"
+                    android:layout_marginLeft="@dimen/space"
+                    android:layout_marginRight="@dimen/space"
+                    android:layout_marginTop="@dimen/space_double"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/space_double"
+                            android:text="@string/wallet.transaction_history" />
+
+                        <LinearLayout
+                            android:id="@+id/lnrMonth"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/space_double"
+                            android:layout_marginTop="@dimen/space_half"
+                            android:gravity="center_horizontal"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/txvMonth"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:textColor="@color/red_600"
+                                android:textSize="@dimen/font_big"
+                                tools:text="JUNE" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/app_name"
+                                android:src="@drawable/ic_arrow_drop_down_black_24px"
+                                android:tint="@color/colorPrimary" />
+
+                        </LinearLayout>
+
+
+                        <ProgressBar
+                            android:id="@+id/progressbar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:indeterminate="true"
+                            android:indeterminateTint="@color/colorPrimary"
+                            android:indeterminateTintMode="src_in"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/txvError"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="@dimen/space"
+                            android:layout_marginTop="@dimen/space_quadruple"
+                            android:textSize="@dimen/font_big"
+                            tools:text="Tidak ada data" />
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/rv"
+                            style="@style/GenericRecyclerViewStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_marginBottom="@dimen/space"
+                            android:layout_weight="1"
+                            android:padding="@dimen/space" />
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/grey_400"></LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

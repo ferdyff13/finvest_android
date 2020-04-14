@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradation"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/space_double">
+
+        <LinearLayout
+            android:id="@+id/llInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/space_double"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etActivationCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_edittext"
+                android:digits="QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklz1234567890"
+                android:hint="@string/activation.hint"
+                android:inputType="textCapCharacters"
+                android:maxLength="6"
+                android:textColorHint="@color/hintColor"
+                android:textSize="@dimen/font_medium" />
+
+            <TextView
+                android:id="@+id/tvClue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:hint="@string/activation.clue"
+                android:textColorHint="@color/white"
+                android:textSize="@dimen/font_reg" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/llInput"
+            android:layout_marginBottom="@dimen/space_double"
+            android:orientation="horizontal"
+            android:padding="@dimen/space_double">
+
+            <Button
+                android:id="@+id/bActivate"
+                style="@style/GenericRaisedButtonStyle"
+                android:layout_width="0dp"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/space_half"
+                android:layout_weight="1"
+                android:text="@string/activation.activate"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_tiny" />
+
+            <Button
+                android:id="@+id/bResend"
+                style="@style/GenericRaisedButtonStyleDark"
+                android:layout_width="0dp"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/space_half"
+                android:layout_weight="1"
+                android:text="@string/activation.resend"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_tiny" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

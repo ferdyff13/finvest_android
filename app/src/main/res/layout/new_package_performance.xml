@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/space">
+
+    <LinearLayout
+        android:id="@+id/lnrActions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/btn1month"
+            style="@style/GenericRaisedButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="@dimen/space"
+            android:layout_marginRight="@dimen/space"
+            android:layout_marginStart="@dimen/space"
+            android:layout_weight="1"
+            android:background="@drawable/button_primary_dark"
+            android:padding="@dimen/space"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textOff="@string/one.month"
+            android:textOn="@string/one.month"
+            android:textSize="@dimen/_10sdp" />
+
+        <ToggleButton
+            android:id="@+id/btn6months"
+            style="@style/GenericRaisedButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="@dimen/space"
+            android:layout_marginLeft="@dimen/space"
+            android:layout_marginRight="@dimen/space"
+            android:layout_marginStart="@dimen/space"
+            android:layout_weight="1"
+            android:background="@drawable/button_primary_dark"
+            android:padding="@dimen/space"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textOff="@string/six.months"
+            android:textOn="@string/six.months"
+            android:textSize="@dimen/_10sdp"/>
+
+        <ToggleButton
+            android:id="@+id/btn1year"
+            style="@style/GenericRaisedButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="@dimen/space"
+            android:layout_marginLeft="@dimen/space"
+            android:layout_marginRight="@dimen/space"
+            android:layout_marginStart="@dimen/space"
+            android:layout_weight="1"
+            android:background="@drawable/button_primary_dark"
+            android:padding="@dimen/space"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textOff="@string/one.year"
+            android:textOn="@string/one.year"
+            android:textSize="@dimen/_10sdp"/>
+
+        <ToggleButton
+            android:id="@+id/btn3years"
+            style="@style/GenericRaisedButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="@dimen/space"
+            android:layout_marginLeft="@dimen/space"
+            android:layout_marginRight="@dimen/space"
+            android:layout_marginStart="@dimen/space"
+            android:layout_weight="1"
+            android:background="@drawable/button_primary_dark"
+            android:padding="@dimen/space"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textOff="@string/three.years"
+            android:textOn="@string/three.years"
+            android:textSize="@dimen/_10sdp"/>
+
+        <ToggleButton
+            android:id="@+id/btn5years"
+            style="@style/GenericRaisedButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="@dimen/space"
+            android:layout_marginLeft="@dimen/space"
+            android:layout_marginStart="@dimen/space"
+            android:layout_weight="1"
+            android:background="@drawable/button_primary_dark"
+            android:padding="@dimen/space"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textOff="@string/five.years"
+            android:textOn="@string/five.years"
+            android:textSize="@dimen/_10sdp"/>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/colorPrimary"
+        android:indeterminateTintMode="src_in"
+        android:visibility="visible" />
+
+    <lecho.lib.hellocharts.view.LineChartView
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_marginTop="16dp"
+        android:paddingBottom="@dimen/space_half"
+        android:layout_below="@+id/lnrActions"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/llPortfolio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/space">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:padding="@dimen/space">
+
+                <EditText
+                    android:id="@+id/etTotalInv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:hint="@string/portfolio.total_inv"
+                    android:paddingTop="@dimen/space"
+                    android:textColor="@color/black"
+                    android:textIsSelectable="false"
+                    android:textSize="@dimen/font_reg"
+                    android:textStyle="bold"
+                    tools:text="Rp. 24,880,880" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:padding="@dimen/space">
+
+                <EditText
+                    android:id="@+id/etTotalMarketValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:hint="@string/portfolio.total_marketvalue"
+                    android:paddingTop="@dimen/space"
+                    android:textColor="@color/black"
+                    android:textIsSelectable="false"
+                    android:textSize="@dimen/font_reg"
+                    android:textStyle="bold"
+                    tools:text="Rp. 24,880,880" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:padding="@dimen/space">
+
+                <EditText
+                    android:id="@+id/etTotalGainLoss"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:hint="@string/portfolio.total_gainloss"
+                    android:paddingTop="@dimen/space"
+                    android:textColor="@color/black"
+                    android:textIsSelectable="false"
+                    android:textSize="@dimen/font_reg"
+                    android:textStyle="bold"
+                    tools:text="Rp. 24,880,880" />
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/space">
+
+            <!--CHART-->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_weight="2"
+                android:padding="@dimen/space">
+
+                <lecho.lib.hellocharts.view.PieChartView
+                    android:id="@+id/pieChart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <!--CHART DESCRIPTION-->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv"
+                    style="@style/GenericRecyclerViewStyle" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llNoPortfolio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/portfolio.no_data"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/font_reg" />
+
+        <Button
+            android:id="@+id/bStartToInvest"
+            style="@style/GenericRaisedButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/space_double"
+            android:text="@string/portfolio.start_to_invest"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_reg" />
+
+    </LinearLayout>
+
+</RelativeLayout>

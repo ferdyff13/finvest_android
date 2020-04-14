@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space"
+        android:layout_marginTop="@dimen/space"
+        android:text="@string/fatca.holdmail"
+        android:textColor="@color/hintColor"
+        android:textSize="@dimen/font_reg" />
+
+    <Spinner
+        android:id="@+id/sAnswerOption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_half"
+        android:layout_marginTop="@dimen/space"
+        android:entries="@array/dummy_array"
+        android:focusable="false"
+        android:spinnerMode="dialog" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="@dimen/space_double"
+        android:layout_marginLeft="@dimen/space_half"
+        android:layout_marginRight="@dimen/space_half"
+        android:background="@color/grey_700" />
+
+    <!--NEEDED SPACE FOR FAB AREA-->
+    <View
+        android:id="@+id/space"
+        android:visibility="gone"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/fab_normal_size_plus_margin_double"/>
+
+</LinearLayout>

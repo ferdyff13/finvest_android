@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/GenericCardViewStyle"
+    android:layout_margin="@dimen/space">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="@dimen/space_double">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_us"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/font_medium" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="@dimen/space"
+            android:layout_marginTop="@dimen/space"
+            android:background="@color/grey_300" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/support.contact_information"
+            android:textSize="@dimen/font_small" />
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

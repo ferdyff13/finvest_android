@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/sl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/space_double"
+            android:paddingLeft="@dimen/space"
+            android:paddingRight="@dimen/space"
+            android:paddingTop="@dimen/space_double">
+
+            <!--OFFICE COUNTRY-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:text="@string/kyc.office_country"
+                android:textColor="@color/hintColor"
+                android:textSize="@dimen/font_small" />
+
+            <Spinner
+                android:id="@+id/sOfficeCountry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:entries="@array/dummy_array"
+                android:focusable="false"
+                android:spinnerMode="dialog" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/grey_700" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:background="@color/mandatoryFieldColor" />
+
+            <!--OFFICE PROVINCE-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_double"
+                android:text="@string/kyc.office_province"
+                android:textColor="@color/hintColor"
+                android:textSize="@dimen/font_small" />
+
+            <Spinner
+                android:id="@+id/sOfficeProvince"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:entries="@array/dummy_array"
+                android:focusable="false"
+                android:spinnerMode="dialog" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/grey_700" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:background="@color/mandatoryFieldColor" />
+
+            <!--OFFICE CITY-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_double"
+                android:text="@string/kyc.office_city"
+                android:textColor="@color/hintColor"
+                android:textSize="@dimen/font_small" />
+
+            <Spinner
+                android:id="@+id/sOfficeCity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:entries="@array/dummy_array"
+                android:focusable="false"
+                android:spinnerMode="dialog" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/grey_700" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:background="@color/mandatoryFieldColor" />
+
+            <!--OFFICE ADDRESS-->
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_double">
+
+                <EditText
+                    android:id="@+id/etOfficeAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|left"
+                    android:hint="@string/kyc.office_address"
+                    android:inputType="textMultiLine"
+                    android:lines="5"
+                    android:maxLines="10"
+                    android:scrollbars="vertical"
+                    android:singleLine="false"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/font_medium" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:background="@color/mandatoryFieldColor" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <!--OFFICE POSTAL CODE-->
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_double">
+
+                <EditText
+                    android:id="@+id/etOfficePostalCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/kyc.office_postal_code"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/font_medium" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:background="@color/mandatoryFieldColor" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <!--OFFICE PHONE NUMBER-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_double"
+                android:text="@string/kyc.office_phone_number"
+                android:textColor="@color/hintColor"
+                android:textSize="@dimen/font_small" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etCountryCode"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:layout_weight="1"
+                    android:hint="@string/kyc.country_code"
+                    android:inputType="phone"
+                    android:singleLine="true"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/font_medium" />
+
+                <EditText
+                    android:id="@+id/etCityCode"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_weight="1"
+                    android:hint="@string/kyc.city_code"
+                    android:inputType="phone"
+                    android:singleLine="true"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/font_medium" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/mandatoryFieldColor" />
+
+            <EditText
+                android:id="@+id/etOfficePhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:hint="@string/kyc.phone_number"
+                android:inputType="phone"
+                android:singleLine="true"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/font_medium" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/mandatoryFieldColor" />
+
+            <!--NEEDED SPACE FOR FAB AREA-->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/fab_normal_size_plus_margin_double" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabPrev"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_margin="@dimen/space_double"
+        android:src="@drawable/ic_keyboard_arrow_left_white_24dp"
+        android:tint="@color/white"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabSize="mini"
+        app:layout_anchor="@id/sl"
+        app:layout_anchorGravity="bottom|left|end" />
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.yahoo.mobile.client.android.util.rangeseekbar:rangeseekbar-library-0.2.0-SNAPSHOT">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.yahoo.mobile.client.android.util.rangeseekbar/rangeseekbar-library/0.2.0-SNAPSHOT/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.yahoo.mobile.client.android.util.rangeseekbar/rangeseekbar-library/0.2.0-SNAPSHOT/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.yahoo.mobile.client.android.util.rangeseekbar/rangeseekbar-library/0.2.0-SNAPSHOT/a1710665c9161659f570dc4c61c07013c3553a8f/rangeseekbar-library-0.2.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

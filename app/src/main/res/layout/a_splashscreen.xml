@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red_600">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/llIconLoading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:padding="@dimen/space_triple"/>
+
+        <!--<ImageView-->
+            <!--android:id="@+id/ivLoading"-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_height="80dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:background="@drawable/loading_invisee" />-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llRetry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llIconLoading"
+        android:layout_margin="@dimen/space_double"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvConnectionError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/connection_error"
+            android:textAllCaps="true"
+            android:textColor="@color/red_500"
+            android:textSize="@dimen/font_reg"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/bRetry"
+            style="@style/ForgotPasswordFlatButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/space_half"
+            android:minHeight="36dp"
+            android:text="@string/retry"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_medium"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

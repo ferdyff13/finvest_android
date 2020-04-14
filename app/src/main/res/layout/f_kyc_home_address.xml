@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/sl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/space_double"
+            android:paddingLeft="@dimen/space"
+            android:paddingRight="@dimen/space">
+
+            <!--HOME ADDRESS-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_double"
+                android:text="@string/kyc.home_address"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/font_small" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etHomeAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|left"
+                    android:inputType="textMultiLine"
+                    android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890,.\n"
+                    android:lines="3"
+                    android:maxLines="10"
+                    android:maxLength="100"
+                    android:scrollbars="vertical"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/_12sdp" />
+
+                <!--View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:background="@color/mandatoryFieldColor" /-->
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <!--HOME COUNTRY-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_double"
+                android:text="@string/kyc.home_country"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/font_small" />
+
+            <Spinner
+                android:id="@+id/sHomeCountry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:entries="@array/dummy_array"
+                android:focusable="false"
+                android:spinnerMode="dialog" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/grey_700" />
+
+            <!--View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:background="@color/mandatoryFieldColor" /-->
+
+            <!--HOME PROVINCE-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_double"
+                android:text="@string/kyc.home_province"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/font_small" />
+
+            <Spinner
+                android:id="@+id/sHomeProvince"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:entries="@array/dummy_array"
+                android:focusable="false"
+                android:spinnerMode="dialog" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/grey_700" />
+
+            <!--View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:background="@color/mandatoryFieldColor" /-->
+
+            <!--HOME CITY-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_double"
+                android:text="@string/kyc.home_city"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/font_small" />
+
+            <Spinner
+                android:id="@+id/sHomeCity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:entries="@array/dummy_array"
+                android:focusable="false"
+                android:spinnerMode="dialog" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/grey_700" />
+
+            <!--View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:layout_marginTop="@dimen/space"
+                android:background="@color/mandatoryFieldColor" /-->
+
+
+            <!--HOME POSTAL CODE-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_double"
+                android:text="@string/kyc.home_postal_code"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/font_small" />
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etHomePostalCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:maxLength="5"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/_12sdp" />
+
+                <!--View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:background="@color/mandatoryFieldColor" /-->
+
+            </android.support.design.widget.TextInputLayout>
+
+            <!--HOME PHONE NUMBER-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_double"
+                android:text="@string/kyc.home_phone_number"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/font_small" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etCountryCode"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:layout_weight="1"
+                    android:hint="@string/kyc.country_code"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:maxLength="3"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/_12sdp"  />
+
+                <EditText
+                    android:id="@+id/etCityCode"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_half"
+                    android:layout_marginRight="@dimen/space_half"
+                    android:layout_weight="1"
+                    android:hint="@string/kyc.city_code"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:maxLength="5"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/_12sdp" />
+
+                <EditText
+                    android:id="@+id/etHomePhoneNumber"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:hint="@string/kyc.phone_number"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:maxLength="12"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/_12sdp" />
+
+            </LinearLayout>
+
+            <!--View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/mandatoryFieldColor" /-->
+
+            <!--EditText
+                android:id="@+id/etHomePhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space"
+                android:hint="@string/kyc.phone_number"
+                android:inputType="phone"
+                android:singleLine="true"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/font_medium" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginLeft="@dimen/space_half"
+                android:layout_marginRight="@dimen/space_half"
+                android:background="@color/mandatoryFieldColor" /-->
+
+            <!--Checkbox Phone Number-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/checkboxPhone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/space_half"
+                        />
+
+                    <TextView
+                        android:id="@+id/txtUsingPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/user_profile.kyc.private_info.option1"/>
+
+                    </LinearLayout>
+
+            <!--Checkbox Legal Address-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/checkboxLegal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_half"
+                    />
+
+                <TextView
+                    android:id="@+id/txtUsingHome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_profile.kyc.private_info.option2"/>
+
+            </LinearLayout>
+
+
+            <!--
+                    &lt;!&ndash;Checkbox 2&ndash;&gt;
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="@dimen/space"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/checkboxAddress"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/space_half"
+                            />
+
+                        <TextView
+                            android:id="@+id/txtCopyValueAddress"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Alamat surat menyurat sama dengan alamat KTP"/>
+
+                    </LinearLayout>-->
+
+
+
+            <!--NEEDED SPACE FOR FAB AREA-->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/fab_normal_size_plus_margin_double"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <!--    <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabPrev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:layout_margin="@dimen/space_double"
+            android:src="@drawable/ic_keyboard_arrow_left_white_24dp"
+            android:tint="@color/white"
+            app:backgroundTint="@color/colorPrimary"
+            app:fabSize="mini"
+            app:layout_anchor="@id/sl"
+            app:layout_anchorGravity="bottom|left|end" />-->
+
+</android.support.design.widget.CoordinatorLayout>
